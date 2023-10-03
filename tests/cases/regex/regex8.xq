@@ -1,0 +1,1 @@
+not(matches("1234zzzA", "1234(zz)?\1A"))

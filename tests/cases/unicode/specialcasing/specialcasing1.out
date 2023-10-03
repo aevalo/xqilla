@@ -1,0 +1,414 @@
+<result>
+<code_point value="223">
+<lower>223</lower>
+<upper>83 83</upper>
+</code_point>
+<code_point value="304">
+<lower>105 775</lower>
+<upper>304</upper>
+</code_point>
+<code_point value="64256">
+<lower>64256</lower>
+<upper>70 70</upper>
+</code_point>
+<code_point value="64257">
+<lower>64257</lower>
+<upper>70 73</upper>
+</code_point>
+<code_point value="64258">
+<lower>64258</lower>
+<upper>70 76</upper>
+</code_point>
+<code_point value="64259">
+<lower>64259</lower>
+<upper>70 70 73</upper>
+</code_point>
+<code_point value="64260">
+<lower>64260</lower>
+<upper>70 70 76</upper>
+</code_point>
+<code_point value="64261">
+<lower>64261</lower>
+<upper>83 84</upper>
+</code_point>
+<code_point value="64262">
+<lower>64262</lower>
+<upper>83 84</upper>
+</code_point>
+<code_point value="1415">
+<lower>1415</lower>
+<upper>1333 1362</upper>
+</code_point>
+<code_point value="64275">
+<lower>64275</lower>
+<upper>1348 1350</upper>
+</code_point>
+<code_point value="64276">
+<lower>64276</lower>
+<upper>1348 1333</upper>
+</code_point>
+<code_point value="64277">
+<lower>64277</lower>
+<upper>1348 1339</upper>
+</code_point>
+<code_point value="64278">
+<lower>64278</lower>
+<upper>1358 1350</upper>
+</code_point>
+<code_point value="64279">
+<lower>64279</lower>
+<upper>1348 1341</upper>
+</code_point>
+<code_point value="329">
+<lower>329</lower>
+<upper>700 78</upper>
+</code_point>
+<code_point value="912">
+<lower>912</lower>
+<upper>921 776 769</upper>
+</code_point>
+<code_point value="944">
+<lower>944</lower>
+<upper>933 776 769</upper>
+</code_point>
+<code_point value="496">
+<lower>496</lower>
+<upper>74 780</upper>
+</code_point>
+<code_point value="7830">
+<lower>7830</lower>
+<upper>72 817</upper>
+</code_point>
+<code_point value="7831">
+<lower>7831</lower>
+<upper>84 776</upper>
+</code_point>
+<code_point value="7832">
+<lower>7832</lower>
+<upper>87 778</upper>
+</code_point>
+<code_point value="7833">
+<lower>7833</lower>
+<upper>89 778</upper>
+</code_point>
+<code_point value="7834">
+<lower>7834</lower>
+<upper>65 702</upper>
+</code_point>
+<code_point value="8016">
+<lower>8016</lower>
+<upper>933 787</upper>
+</code_point>
+<code_point value="8018">
+<lower>8018</lower>
+<upper>933 787 768</upper>
+</code_point>
+<code_point value="8020">
+<lower>8020</lower>
+<upper>933 787 769</upper>
+</code_point>
+<code_point value="8022">
+<lower>8022</lower>
+<upper>933 787 834</upper>
+</code_point>
+<code_point value="8118">
+<lower>8118</lower>
+<upper>913 834</upper>
+</code_point>
+<code_point value="8134">
+<lower>8134</lower>
+<upper>919 834</upper>
+</code_point>
+<code_point value="8146">
+<lower>8146</lower>
+<upper>921 776 768</upper>
+</code_point>
+<code_point value="8147">
+<lower>8147</lower>
+<upper>921 776 769</upper>
+</code_point>
+<code_point value="8150">
+<lower>8150</lower>
+<upper>921 834</upper>
+</code_point>
+<code_point value="8151">
+<lower>8151</lower>
+<upper>921 776 834</upper>
+</code_point>
+<code_point value="8162">
+<lower>8162</lower>
+<upper>933 776 768</upper>
+</code_point>
+<code_point value="8163">
+<lower>8163</lower>
+<upper>933 776 769</upper>
+</code_point>
+<code_point value="8164">
+<lower>8164</lower>
+<upper>929 787</upper>
+</code_point>
+<code_point value="8166">
+<lower>8166</lower>
+<upper>933 834</upper>
+</code_point>
+<code_point value="8167">
+<lower>8167</lower>
+<upper>933 776 834</upper>
+</code_point>
+<code_point value="8182">
+<lower>8182</lower>
+<upper>937 834</upper>
+</code_point>
+<code_point value="8064">
+<lower>8064</lower>
+<upper>7944 921</upper>
+</code_point>
+<code_point value="8065">
+<lower>8065</lower>
+<upper>7945 921</upper>
+</code_point>
+<code_point value="8066">
+<lower>8066</lower>
+<upper>7946 921</upper>
+</code_point>
+<code_point value="8067">
+<lower>8067</lower>
+<upper>7947 921</upper>
+</code_point>
+<code_point value="8068">
+<lower>8068</lower>
+<upper>7948 921</upper>
+</code_point>
+<code_point value="8069">
+<lower>8069</lower>
+<upper>7949 921</upper>
+</code_point>
+<code_point value="8070">
+<lower>8070</lower>
+<upper>7950 921</upper>
+</code_point>
+<code_point value="8071">
+<lower>8071</lower>
+<upper>7951 921</upper>
+</code_point>
+<code_point value="8072">
+<lower>8064</lower>
+<upper>7944 921</upper>
+</code_point>
+<code_point value="8073">
+<lower>8065</lower>
+<upper>7945 921</upper>
+</code_point>
+<code_point value="8074">
+<lower>8066</lower>
+<upper>7946 921</upper>
+</code_point>
+<code_point value="8075">
+<lower>8067</lower>
+<upper>7947 921</upper>
+</code_point>
+<code_point value="8076">
+<lower>8068</lower>
+<upper>7948 921</upper>
+</code_point>
+<code_point value="8077">
+<lower>8069</lower>
+<upper>7949 921</upper>
+</code_point>
+<code_point value="8078">
+<lower>8070</lower>
+<upper>7950 921</upper>
+</code_point>
+<code_point value="8079">
+<lower>8071</lower>
+<upper>7951 921</upper>
+</code_point>
+<code_point value="8080">
+<lower>8080</lower>
+<upper>7976 921</upper>
+</code_point>
+<code_point value="8081">
+<lower>8081</lower>
+<upper>7977 921</upper>
+</code_point>
+<code_point value="8082">
+<lower>8082</lower>
+<upper>7978 921</upper>
+</code_point>
+<code_point value="8083">
+<lower>8083</lower>
+<upper>7979 921</upper>
+</code_point>
+<code_point value="8084">
+<lower>8084</lower>
+<upper>7980 921</upper>
+</code_point>
+<code_point value="8085">
+<lower>8085</lower>
+<upper>7981 921</upper>
+</code_point>
+<code_point value="8086">
+<lower>8086</lower>
+<upper>7982 921</upper>
+</code_point>
+<code_point value="8087">
+<lower>8087</lower>
+<upper>7983 921</upper>
+</code_point>
+<code_point value="8088">
+<lower>8080</lower>
+<upper>7976 921</upper>
+</code_point>
+<code_point value="8089">
+<lower>8081</lower>
+<upper>7977 921</upper>
+</code_point>
+<code_point value="8090">
+<lower>8082</lower>
+<upper>7978 921</upper>
+</code_point>
+<code_point value="8091">
+<lower>8083</lower>
+<upper>7979 921</upper>
+</code_point>
+<code_point value="8092">
+<lower>8084</lower>
+<upper>7980 921</upper>
+</code_point>
+<code_point value="8093">
+<lower>8085</lower>
+<upper>7981 921</upper>
+</code_point>
+<code_point value="8094">
+<lower>8086</lower>
+<upper>7982 921</upper>
+</code_point>
+<code_point value="8095">
+<lower>8087</lower>
+<upper>7983 921</upper>
+</code_point>
+<code_point value="8096">
+<lower>8096</lower>
+<upper>8040 921</upper>
+</code_point>
+<code_point value="8097">
+<lower>8097</lower>
+<upper>8041 921</upper>
+</code_point>
+<code_point value="8098">
+<lower>8098</lower>
+<upper>8042 921</upper>
+</code_point>
+<code_point value="8099">
+<lower>8099</lower>
+<upper>8043 921</upper>
+</code_point>
+<code_point value="8100">
+<lower>8100</lower>
+<upper>8044 921</upper>
+</code_point>
+<code_point value="8101">
+<lower>8101</lower>
+<upper>8045 921</upper>
+</code_point>
+<code_point value="8102">
+<lower>8102</lower>
+<upper>8046 921</upper>
+</code_point>
+<code_point value="8103">
+<lower>8103</lower>
+<upper>8047 921</upper>
+</code_point>
+<code_point value="8104">
+<lower>8096</lower>
+<upper>8040 921</upper>
+</code_point>
+<code_point value="8105">
+<lower>8097</lower>
+<upper>8041 921</upper>
+</code_point>
+<code_point value="8106">
+<lower>8098</lower>
+<upper>8042 921</upper>
+</code_point>
+<code_point value="8107">
+<lower>8099</lower>
+<upper>8043 921</upper>
+</code_point>
+<code_point value="8108">
+<lower>8100</lower>
+<upper>8044 921</upper>
+</code_point>
+<code_point value="8109">
+<lower>8101</lower>
+<upper>8045 921</upper>
+</code_point>
+<code_point value="8110">
+<lower>8102</lower>
+<upper>8046 921</upper>
+</code_point>
+<code_point value="8111">
+<lower>8103</lower>
+<upper>8047 921</upper>
+</code_point>
+<code_point value="8115">
+<lower>8115</lower>
+<upper>913 921</upper>
+</code_point>
+<code_point value="8124">
+<lower>8115</lower>
+<upper>913 921</upper>
+</code_point>
+<code_point value="8131">
+<lower>8131</lower>
+<upper>919 921</upper>
+</code_point>
+<code_point value="8140">
+<lower>8131</lower>
+<upper>919 921</upper>
+</code_point>
+<code_point value="8179">
+<lower>8179</lower>
+<upper>937 921</upper>
+</code_point>
+<code_point value="8188">
+<lower>8179</lower>
+<upper>937 921</upper>
+</code_point>
+<code_point value="8114">
+<lower>8114</lower>
+<upper>8122 921</upper>
+</code_point>
+<code_point value="8116">
+<lower>8116</lower>
+<upper>902 921</upper>
+</code_point>
+<code_point value="8130">
+<lower>8130</lower>
+<upper>8138 921</upper>
+</code_point>
+<code_point value="8132">
+<lower>8132</lower>
+<upper>905 921</upper>
+</code_point>
+<code_point value="8178">
+<lower>8178</lower>
+<upper>8186 921</upper>
+</code_point>
+<code_point value="8180">
+<lower>8180</lower>
+<upper>911 921</upper>
+</code_point>
+<code_point value="8119">
+<lower>8119</lower>
+<upper>913 834 921</upper>
+</code_point>
+<code_point value="8135">
+<lower>8135</lower>
+<upper>919 834 921</upper>
+</code_point>
+<code_point value="8183">
+<lower>8183</lower>
+<upper>937 834 921</upper>
+</code_point>
+</result>

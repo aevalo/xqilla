@@ -1,0 +1,23 @@
+This is XQilla, a C++ implementation of XQuery and XPath 2.0 based on Xerces-C.
+
+This repository contains code XQilla mercurial repository located at:
+https://sourceforge.net/p/xqilla/xqilla/ci/default/tree/
+
+Fiels are snapshot taken from default branch at 4.10.2023.
+
+Build Instructions
+------------------
+
+1. Download a source distribution of Xerces-C 3.0.1
+2. Build Xerces-C
+
+cd xerces-c-3.0.1/
+./configure
+make
+
+4. Build XQilla
+
+cd xqilla/
+./configure --with-xerces=`pwd`/../xerces-c-3.0.1/
+make
+

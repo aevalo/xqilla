@@ -1,0 +1,222 @@
+<tests>
+ <abs-tests>
+  <abs arg="xs:double(-1.0)" typecheck="true" val="1"/>
+  <abs arg="xs:double(0.0)" typecheck="true" val="0"/>
+  <abs arg="xs:double(1.0)" typecheck="true" val="1"/>
+ </abs-tests>
+ <sqrt-tests>
+  <sqrt arg="xs:double(0.0)" typecheck="true" val="0"/>
+  <sqrt arg="xs:double(1.0)" typecheck="true" val="1"/>
+  <sqrt arg="xs:double(2.0)" typecheck="true" val="1.414213562373095"/>
+  <sqrt arg="xs:double(4.0)" typecheck="true" val="2"/>
+  <sqrt arg="xs:double(-1.0)" typecheck="true" val="NaN"/>
+  <sqrt arg="xs:double(NaN)" typecheck="true" val="NaN"/>
+  <sqrt arg="xs:double(INF)" typecheck="true" val="INF"/>
+  <sqrt arg="xs:double(-INF)" typecheck="true" val="NaN"/>
+  <sqrt arg="xs:float(0.0)" typecheck="true" val="0"/>
+  <sqrt arg="xs:float(1.0)" typecheck="true" val="1"/>
+  <sqrt arg="xs:float(2.0)" typecheck="true" val="1.4142136"/>
+  <sqrt arg="xs:float(4.0)" typecheck="true" val="2"/>
+  <sqrt arg="xs:float(-1.0)" typecheck="true" val="NaN"/>
+  <sqrt arg="xs:float(NaN)" typecheck="true" val="NaN"/>
+  <sqrt arg="xs:float(INF)" typecheck="true" val="INF"/>
+  <sqrt arg="xs:float(-INF)" typecheck="true" val="NaN"/>
+  <sqrt arg="xs:decimal(0.0)" typecheck="true" val="0"/>
+  <sqrt arg="xs:decimal(1.0)" typecheck="true" val="1"/>
+  <sqrt arg="xs:decimal(2.0)" typecheck="true" val="1.414213562373095049"/>
+  <sqrt arg="xs:decimal(4.0)" typecheck="true" val="2"/>
+  <sqrt arg="xs:decimal(-1.0)" typecheck="true" val="0"/>
+ </sqrt-tests>
+ <sin-tests>
+  <sin arg="xs:double(0.0)" typecheck="true" val="NaN"/>
+  <sin arg="xs:double(0.0)" typecheck="true" val="NaN"/>
+  <sin arg="xs:double(0.0)" typecheck="true" val="NaN"/>
+  <sin arg="xs:double(0.0)" typecheck="true" val="0"/>
+  <sin arg="xs:double(~pi/2)" typecheck="true" val="0.999999998926914"/>
+  <sin arg="xs:double(~pi)" typecheck="true" val="0.0000926535896607"/>
+  <sin arg="xs:float(0.0)" typecheck="true" val="NaN"/>
+  <sin arg="xs:float(0.0)" typecheck="true" val="NaN"/>
+  <sin arg="xs:float(0.0)" typecheck="true" val="NaN"/>
+  <sin arg="xs:float(0.0)" typecheck="true" val="0"/>
+  <sin arg="xs:float(~pi/2)" typecheck="true" val="1"/>
+  <sin arg="xs:float(~pi)" typecheck="true" val="0.0000927"/>
+  <sin arg="xs:decimal(0.0)" typecheck="true" val="0"/>
+  <sin arg="xs:decimal(~pi/2)" typecheck="true" val="0.999999998926914037"/>
+  <sin arg="xs:decimal(~pi)" typecheck="true" val="0.000092653589660671"/>
+ </sin-tests>
+ <cos-tests>
+  <cos arg="xs:double(0.0)" typecheck="true" val="NaN"/>
+  <cos arg="xs:double(0.0)" typecheck="true" val="NaN"/>
+  <cos arg="xs:double(0.0)" typecheck="true" val="NaN"/>
+  <cos arg="xs:double(0.0)" typecheck="true" val="1"/>
+  <cos arg="xs:double(~pi/2)" typecheck="true" val="0.00004632679488"/>
+  <cos arg="xs:double(~pi)" typecheck="true" val="-0.9999999957076562"/>
+  <cos arg="xs:float(0.0)" typecheck="true" val="1"/>
+  <cos arg="xs:float(0.0)" typecheck="true" val="NaN"/>
+  <cos arg="xs:float(0.0)" typecheck="true" val="NaN"/>
+  <cos arg="xs:float(0.0)" typecheck="true" val="NaN"/>
+  <cos arg="xs:float(~pi/2)" typecheck="true" val="0.0000463"/>
+  <cos arg="xs:float(~pi)" typecheck="true" val="-1"/>
+  <cos arg="xs:decimal(0.0)" typecheck="true" val="1"/>
+  <cos arg="xs:decimal(~pi/2)" typecheck="true" val="0.000046326794880048"/>
+  <cos arg="xs:decimal(~pi)" typecheck="true" val="-0.999999995707656152"/>
+ </cos-tests>
+ <tan-tests>
+  <tan arg="xs:double(0.0)" typecheck="true" val="NaN"/>
+  <tan arg="xs:double(0.0)" typecheck="true" val="NaN"/>
+  <tan arg="xs:double(0.0)" typecheck="true" val="NaN"/>
+  <tan arg="xs:double(0.0)" typecheck="true" val="0"/>
+  <tan arg="xs:double(~pi/2)" typecheck="true" val="21585.779925336166236"/>
+  <tan arg="xs:double(~pi)" typecheck="true" val="-0.0000926535900584"/>
+  <tan arg="xs:float(0.0)" typecheck="true" val="NaN"/>
+  <tan arg="xs:float(0.0)" typecheck="true" val="NaN"/>
+  <tan arg="xs:float(0.0)" typecheck="true" val="NaN"/>
+  <tan arg="xs:float(0.0)" typecheck="true" val="0"/>
+  <tan arg="xs:float(~pi/2)" typecheck="true" val="21585.7799253"/>
+  <tan arg="xs:float(~pi)" typecheck="true" val="-0.0000927"/>
+  <tan arg="xs:decimal(0.0)" typecheck="true" val="0"/>
+  <tan arg="xs:decimal(~pi/2)" typecheck="true" val="21585.779925336166236017"/>
+  <tan arg="xs:decimal(~pi)" typecheck="true" val="-0.000092653590058373"/>
+ </tan-tests>
+ <asin-tests>
+  <asin arg="0" arg_pre="0.0" type="xs:double" val="1.5707963267948966"/>
+  <asin arg="0.479425538604203" arg_pre="0.5" type="xs:double" val="1.0707963267948966"/>
+  <asin arg="0.8414709848078965" arg_pre="1.0" type="xs:double" val="0.5707963267948966"/>
+  <asin arg="-0.479425538604203" arg_pre="-0.5" type="xs:double" val="2.0707963267948966"/>
+  <asin arg="-0.8414709848078965" arg_pre="-1.0" type="xs:double" val="2.5707963267948966"/>
+  <asin arg="NaN" arg_pre="undef" type="xs:double" val="NaN"/>
+  <asin arg="INF" arg_pre="undef" type="xs:double" val="NaN"/>
+  <asin arg="-INF" arg_pre="undef" type="xs:double" val="NaN"/>
+  <asin arg="2.0" arg_pre="undef" type="xs:double" val="NaN"/>
+  <asin arg="-2.0" arg_pre="undef" type="xs:double" val="NaN"/>
+  <asin arg="0" arg_pre="0.0" type="xs:float" val="0"/>
+  <asin arg="0.4794255" arg_pre="0.5" type="xs:float" val="0.5"/>
+  <asin arg="0.841471" arg_pre="1.0" type="xs:float" val="1"/>
+  <asin arg="-0.4794255" arg_pre="-0.5" type="xs:float" val="-0.5"/>
+  <asin arg="-0.841471" arg_pre="-1.0" type="xs:float" val="-1"/>
+  <asin arg="NaN" arg_pre="undef" type="xs:float" val="NaN"/>
+  <asin arg="INF" arg_pre="undef" type="xs:float" val="NaN"/>
+  <asin arg="-INF" arg_pre="undef" type="xs:float" val="NaN"/>
+  <asin arg="2.0" arg_pre="undef" type="xs:float" val="NaN"/>
+  <asin arg="-2.0" arg_pre="undef" type="xs:float" val="NaN"/>
+  <asin arg="0" arg_pre="0.0" type="xs:decimal" val="0"/>
+  <asin arg="0.479425538604203" arg_pre="0.5" type="xs:decimal" val="0.5"/>
+  <asin arg="0.841470984807896507" arg_pre="1.0" type="xs:decimal" val="1"/>
+  <asin arg="-0.479425538604203" arg_pre="-0.5" type="xs:decimal" val="-0.5"/>
+  <asin arg="-0.841470984807896507" arg_pre="-1.0" type="xs:decimal" val="-1"/>
+ </asin-tests>
+ <acos-tests>
+  <acos arg="1" arg_pre="0.0" type="xs:double" val="0"/>
+  <acos arg="0.8775825618903727" arg_pre="0.5" type="xs:double" val="0.5"/>
+  <acos arg="0.5403023058681397" arg_pre="1.0" type="xs:double" val="1"/>
+  <acos arg="0.8775825618903727" arg_pre="1.5" type="xs:double" val="1.5"/>
+  <acos arg="0.5403023058681397" arg_pre="2.0" type="xs:double" val="2"/>
+  <acos arg="NaN" arg_pre="undef" type="xs:double" val="NaN"/>
+  <acos arg="INF" arg_pre="undef" type="xs:double" val="NaN"/>
+  <acos arg="-INF" arg_pre="undef" type="xs:double" val="NaN"/>
+  <acos arg="2.0" arg_pre="undef" type="xs:double" val="NaN"/>
+  <acos arg="-2.0" arg_pre="undef" type="xs:double" val="NaN"/>
+  <acos arg="1" arg_pre="0.0" type="xs:float" val="0"/>
+  <acos arg="0.8775826" arg_pre="0.5" type="xs:float" val="0.5"/>
+  <acos arg="0.5403023" arg_pre="1.0" type="xs:float" val="1"/>
+  <acos arg="0.8775826" arg_pre="1.5" type="xs:float" val="1.5"/>
+  <acos arg="0.5403023" arg_pre="2.0" type="xs:float" val="2"/>
+  <acos arg="NaN" arg_pre="undef" type="xs:float" val="NaN"/>
+  <acos arg="INF" arg_pre="undef" type="xs:float" val="NaN"/>
+  <acos arg="-INF" arg_pre="undef" type="xs:float" val="NaN"/>
+  <acos arg="2.0" arg_pre="undef" type="xs:float" val="NaN"/>
+  <acos arg="-2.0" arg_pre="undef" type="xs:float" val="NaN"/>
+  <acos arg="1" arg_pre="0.0" type="xs:decimal" val="0"/>
+  <acos arg="0.877582561890372716" arg_pre="0.5" type="xs:decimal" val="0.5"/>
+  <acos arg="0.540302305868139717" arg_pre="1.0" type="xs:decimal" val="1"/>
+  <acos arg="0.877582561890372716" arg_pre="1.5" type="xs:decimal" val="1.5"/>
+  <acos arg="0.540302305868139717" arg_pre="2.0" type="xs:decimal" val="2"/>
+ </acos-tests>
+ <atan-tests>
+  <atan arg="0" arg_pre="0.0" type="xs:double" val="0"/>
+  <atan arg="0.5463024898437905" arg_pre="0.5" type="xs:double" val="0.5"/>
+  <atan arg="1.5574077246549022" arg_pre="1.0" type="xs:double" val="1"/>
+  <atan arg="-0.5463024898437905" arg_pre="1.5" type="xs:double" val="1.5"/>
+  <atan arg="-1.5574077246549022" arg_pre="2.0" type="xs:double" val="-1.1415926535897932"/>
+  <atan arg="NaN" arg_pre="undef" type="xs:double" val="NaN"/>
+  <atan arg="INF" arg_pre="undef" type="xs:double" val="1.5707963267948966"/>
+  <atan arg="-INF" arg_pre="undef" type="xs:double" val="-1.5707963267948966"/>
+  <atan arg="2.0" arg_pre="undef" type="xs:double" val="1.1071487177940905"/>
+  <atan arg="-2.0" arg_pre="undef" type="xs:double" val="-1.1071487177940905"/>
+  <atan arg="0" arg_pre="0.0" type="xs:float" val="0"/>
+  <atan arg="0.5463025" arg_pre="0.5" type="xs:float" val="0.5"/>
+  <atan arg="1.5574077" arg_pre="1.0" type="xs:float" val="1"/>
+  <atan arg="-0.5463025" arg_pre="1.5" type="xs:float" val="1.5"/>
+  <atan arg="-1.5574077" arg_pre="2.0" type="xs:float" val="-1.1415927"/>
+  <atan arg="NaN" arg_pre="undef" type="xs:float" val="NaN"/>
+  <atan arg="INF" arg_pre="undef" type="xs:float" val="1.5707963"/>
+  <atan arg="-INF" arg_pre="undef" type="xs:float" val="-1.5707963"/>
+  <atan arg="2.0" arg_pre="undef" type="xs:float" val="1.1071487"/>
+  <atan arg="-2.0" arg_pre="undef" type="xs:float" val="-1.1071487"/>
+  <atan arg="0" arg_pre="0.0" type="xs:decimal" val="0"/>
+  <atan arg="0.546302489843790513" arg_pre="0.5" type="xs:decimal" val="0.5"/>
+  <atan arg="1.557407724654902231" arg_pre="1.0" type="xs:decimal" val="1"/>
+  <atan arg="-0.546302489843790513" arg_pre="1.5" type="xs:decimal" val="1.5"/>
+  <atan arg="-1.557407724654902231" arg_pre="2.0" type="xs:decimal" val="-1.141592653589793238"/>
+ </atan-tests>
+ <log-tests>
+  <log arg="xs:double(0.0)" typecheck="true" val="NaN"/>
+  <log arg="xs:double(1.0)" typecheck="true" val="0"/>
+  <log arg="xs:double(2.0)" typecheck="true" val="0.6931471805599453"/>
+  <log arg="xs:double(4.0)" typecheck="true" val="1.3862943611198906"/>
+  <log arg="xs:double(-1.0)" typecheck="true" val="NaN"/>
+  <log arg="xs:float(0.0)" typecheck="true" val="NaN"/>
+  <log arg="xs:float(1.0)" typecheck="true" val="0"/>
+  <log arg="xs:float(2.0)" typecheck="true" val="0.6931472"/>
+  <log arg="xs:float(4.0)" typecheck="true" val="1.3862944"/>
+  <log arg="xs:float(-1.0)" typecheck="true" val="NaN"/>
+  <log arg="xs:decimal(0.0)" typecheck="true" val="0"/>
+  <log arg="xs:decimal(1.0)" typecheck="true" val="0"/>
+  <log arg="xs:decimal(2.0)" typecheck="true" val="0.693147180559945309"/>
+  <log arg="xs:decimal(4.0)" typecheck="true" val="1.386294361119890619"/>
+  <log arg="xs:decimal(-1.0)" typecheck="true" val="0"/>
+ </log-tests>
+ <exp-tests>
+  <exp arg="xs:double(0.0)" typecheck="true" val="1"/>
+  <exp arg="xs:double(1.0)" typecheck="true" val="2.7182818284590452"/>
+  <exp arg="xs:double(2.0)" typecheck="true" val="7.3890560989306502"/>
+  <exp arg="xs:double(4.0)" typecheck="true" val="54.5981500331442391"/>
+  <exp arg="xs:double(-1.0)" typecheck="true" val="0.3678794411714423"/>
+  <exp arg="xs:float(0.0)" typecheck="true" val="1"/>
+  <exp arg="xs:float(1.0)" typecheck="true" val="2.7182818"/>
+  <exp arg="xs:float(2.0)" typecheck="true" val="7.3890561"/>
+  <exp arg="xs:float(4.0)" typecheck="true" val="54.59815"/>
+  <exp arg="xs:float(-1.0)" typecheck="true" val="0.3678794"/>
+  <exp arg="xs:decimal(0.0)" typecheck="true" val="1"/>
+  <exp arg="xs:decimal(1.0)" typecheck="true" val="2.718281828459045235"/>
+  <exp arg="xs:decimal(2.0)" typecheck="true" val="7.389056098930650227"/>
+  <exp arg="xs:decimal(4.0)" typecheck="true" val="54.598150033144239078"/>
+  <exp arg="xs:decimal(-1.0)" typecheck="true" val="0.367879441171442322"/>
+ </exp-tests>
+ <power-tests>
+  <power arg1="xs:decimal(2)" arg2="xs:decimal(8)" typecheck="true" val="256"/>
+  <power arg1="xs:decimal(7)" arg2="xs:decimal(0)" typecheck="true" val="1"/>
+  <power arg1="xs:decimal(4)" arg2="xs:decimal(-1)" typecheck="true" val="0.25"/>
+  <power arg1="xs:decimal(-4)" arg2="xs:decimal(3)" typecheck="true" val="-64"/>
+  <power arg1="xs:decimal(-7)" arg2="xs:decimal(0)" typecheck="true" val="1"/>
+  <power arg1="xs:decimal(-2)" arg2="xs:decimal(-3)" typecheck="true" val="-0.125"/>
+  <power arg1="xs:decimal(2)" arg2="xs:float(8)" typecheck="true" val="256"/>
+  <power arg1="xs:float(2)" arg2="xs:decimal(8)" typecheck="true" val="256"/>
+  <power arg1="xs:float(2)" arg2="xs:float(8)" typecheck="true" val="256"/>
+  <power arg1="xs:float(7)" arg2="xs:float(0)" typecheck="true" val="1"/>
+  <power arg1="xs:float(4)" arg2="xs:float(-1)" typecheck="true" val="0.25"/>
+  <power arg1="xs:float(-4)" arg2="xs:float(3)" typecheck="true" val="-64"/>
+  <power arg1="xs:float(-7)" arg2="xs:float(0)" typecheck="true" val="1"/>
+  <power arg1="xs:float(-2)" arg2="xs:float(-3)" typecheck="true" val="-0.125"/>
+  <power arg1="xs:decimal(2)" arg2="xs:double(8)" typecheck="true" val="256"/>
+  <power arg1="xs:double(2)" arg2="xs:decimal(8)" typecheck="true" val="256"/>
+  <power arg1="xs:float(2)" arg2="xs:double(8)" typecheck="true" val="256"/>
+  <power arg1="xs:double(2)" arg2="xs:float(8)" typecheck="true" val="256"/>
+  <power arg1="xs:double(2)" arg2="xs:double(8)" typecheck="true" val="256"/>
+  <power arg1="xs:double(7)" arg2="xs:double(0)" typecheck="true" val="1"/>
+  <power arg1="xs:double(4)" arg2="xs:double(-1)" typecheck="true" val="0.25"/>
+  <power arg1="xs:double(-4)" arg2="xs:double(3)" typecheck="true" val="-64"/>
+  <power arg1="xs:double(-7)" arg2="xs:double(0)" typecheck="true" val="1"/>
+  <power arg1="xs:double(-2)" arg2="xs:double(-3)" typecheck="true" val="-0.125"/>
+ </power-tests>
+</tests>

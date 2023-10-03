@@ -1,0 +1,542 @@
+<test-suite version="$Id$"
+            ResultOffsetPath="./"
+            XQueryQueryOffsetPath="./"
+            XQueryFileExtension=".xq">
+
+  <test-suite-info> 
+    <title>XQilla XQuery Test Suite</title> 
+  </test-suite-info> 
+
+  <sources>
+<!--     <source ID="category" FileName="TestSources/category.xml"/> -->
+
+    <schema ID="schema1" uri="" FileName="schema/schema1.xsd"/>
+
+    <module ID="functional" FileName="hofunctions/functional"/>
+    <module ID="private_module1" FileName="xquery11/functiondecl/private_module1"/>
+    <module ID="private_module2" FileName="xquery11/functiondecl/private_module2"/>
+
+<!--     <collection ID="categoryCollection"> -->
+<!--       <input-document>category</input-document> -->
+<!--     </collection> -->
+  </sources>
+
+  <test-group name="schema">
+    <GroupInfo>
+      <title>Tests for schema validation</title>
+    </GroupInfo>
+    <test-case name="schema1" FilePath="schema/">
+      <query name="schema1"/>
+      <output-file compare="Fragment">schema1.out</output-file>
+    </test-case>
+  </test-group>
+
+  <test-group name="regex">
+    <GroupInfo>
+      <title>Tests for regular expression support</title>
+    </GroupInfo>
+    <test-case name="regex1" FilePath="regex/">
+      <query name="regex1"/>
+      <output-file compare="Fragment">regex1.out</output-file>
+    </test-case>
+    <test-case name="regex2" FilePath="regex/">
+      <query name="regex2"/>
+      <output-file compare="Fragment">regex2.out</output-file>
+    </test-case>
+    <test-case name="regex3" FilePath="regex/">
+      <query name="regex3"/>
+      <output-file compare="Fragment">regex3.out</output-file>
+    </test-case>
+    <test-case name="regex4" FilePath="regex/">
+      <query name="regex4"/>
+      <output-file compare="Fragment">regex4.out</output-file>
+    </test-case>
+    <test-case name="regex5" FilePath="regex/">
+      <query name="regex5"/>
+      <output-file compare="Fragment">regex5.out</output-file>
+    </test-case>
+    <test-case name="regex6" FilePath="regex/">
+      <query name="regex6"/>
+      <output-file compare="Fragment">regex6.out</output-file>
+    </test-case>
+    <test-case name="regex7" FilePath="regex/">
+      <query name="regex7"/>
+      <output-file compare="Fragment">regex7.out</output-file>
+    </test-case>
+    <test-case name="regex8" FilePath="regex/">
+      <query name="regex8"/>
+      <output-file compare="Fragment">regex8.out</output-file>
+    </test-case>
+    <test-case name="regex9" FilePath="regex/">
+      <query name="regex9"/>
+      <output-file compare="Fragment">regex9.out</output-file>
+    </test-case>
+    <test-case name="regex10" FilePath="regex/">
+      <query name="regex10"/>
+      <output-file compare="Fragment">regex10.out</output-file>
+    </test-case>
+    <test-case name="regex11" FilePath="regex/">
+      <query name="regex11"/>
+      <output-file compare="Fragment">regex11.out</output-file>
+    </test-case>
+    <test-case name="regex12" FilePath="regex/">
+      <query name="regex12"/>
+      <output-file compare="Fragment">regex12.out</output-file>
+    </test-case>
+  </test-group>
+
+  <test-group name="tailcall">
+    <GroupInfo>
+      <title>Tests for tail calls</title>
+    </GroupInfo>
+    <test-case name="tailcall1" FilePath="tailcall/">
+      <query name="tailcall"/>
+      <output-file compare="Fragment">tailcall.out</output-file>
+    </test-case>
+  </test-group>
+
+  <test-group name="exslt">
+    <GroupInfo>
+      <title>Tests for EXSLT functions</title>
+    </GroupInfo>
+    <test-group name="math">
+      <GroupInfo>
+        <title>Tests for EXSLT math functions</title>
+      </GroupInfo>
+      <test-case name="math1" FilePath="exslt/math/">
+        <query name="math1"/>
+        <output-file compare="Fragment">math1.out</output-file>
+      </test-case>
+    </test-group>
+  </test-group>
+
+  <test-group name="bug-regression">
+    <GroupInfo>
+      <title>Regression tests for bugs found</title>
+    </GroupInfo>
+    <test-case name="bug1" FilePath="bugs/">
+      <!-- Context item static type bug -->
+      <query name="bug1"/>
+      <expected-error>XPDY0002</expected-error>
+    </test-case>
+    <test-case name="bug2" FilePath="bugs/">
+      <!-- Context item static type bug -->
+      <query name="bug2"/>
+      <expected-error>XPDY0002</expected-error>
+    </test-case>
+    <test-case name="bug3" FilePath="bugs/">
+      <!-- Math identity bug -->
+      <query name="bug3"/>
+      <output-file compare="Fragment">bug3.out</output-file>
+    </test-case>
+    <test-case name="bug4" FilePath="bugs/">
+      <!-- Transform a document node bug -->
+      <query name="bug4"/>
+      <output-file compare="Fragment">bug4.out</output-file>
+    </test-case>
+    <test-case name="bug5" FilePath="bugs/">
+      <!-- Subsequence of order by -->
+      <query name="bug5"/>
+      <output-file compare="Fragment">bug5.out</output-file>
+    </test-case>
+    <test-case name="bug6" FilePath="bugs/">
+      <!-- Don't use default namespace for computed attribute constructors -->
+      <!-- Generate prefixes for prefixless attributes in a namespace during namespace fixup -->
+      <query name="bug6"/>
+      <output-file compare="Fragment">bug6.out</output-file>
+    </test-case>
+    <test-case name="bug7" FilePath="bugs/">
+      <!-- Check removing of typeswitch case clauses due to bad static typing (of min()?) -->
+      <query name="bug7"/>
+      <output-file compare="Fragment">bug7.out</output-file>
+    </test-case>
+    <test-case name="bug8" FilePath="bugs/">
+      <!-- Check visibility of non-FLWOR variables after "order by" -->
+      <query name="bug8"/>
+      <output-file compare="Fragment">bug8.out</output-file>
+    </test-case>
+  </test-group>
+
+  <test-group name="unicode">
+    <GroupInfo>
+      <title>Tests for unicode support</title>
+    </GroupInfo>
+    <test-group name="normalize">
+      <GroupInfo>
+        <title>Tests for normalize-unicode</title>
+      </GroupInfo>
+      <test-case name="normalize1" FilePath="unicode/normalize">
+        <query name="normalize1"/>
+        <output-file compare="Fragment">normalize1.out</output-file>
+      </test-case>
+      <test-case name="normalize2" FilePath="unicode/normalize">
+        <query name="normalize2"/>
+        <output-file compare="Fragment">normalize2.out</output-file>
+      </test-case>
+      <test-case name="normalize3" FilePath="unicode/normalize">
+        <query name="normalize3"/>
+        <output-file compare="Fragment">normalize3.out</output-file>
+      </test-case>
+      <test-case name="normalize4" FilePath="unicode/normalize">
+        <query name="normalize4"/>
+        <output-file compare="Fragment">normalize4.out</output-file>
+      </test-case>
+      <test-case name="normalize5" FilePath="unicode/normalize">
+        <query name="normalize5"/>
+        <output-file compare="Fragment">normalize5.out</output-file>
+      </test-case>
+      <test-case name="normalize6" FilePath="unicode/normalize">
+        <query name="normalize6"/>
+        <output-file compare="Fragment">normalize6.out</output-file>
+      </test-case>
+      <test-case name="normalize7" FilePath="unicode/normalize">
+        <query name="normalize7"/>
+        <output-file compare="Fragment">normalize7.out</output-file>
+      </test-case>
+      <test-case name="normalize8" FilePath="unicode/normalize">
+        <query name="normalize8"/>
+        <output-file compare="Fragment">normalize8.out</output-file>
+      </test-case>
+      <test-case name="normalize9" FilePath="unicode/normalize">
+        <query name="normalize9"/>
+        <output-file compare="Fragment">normalize9.out</output-file>
+      </test-case>
+      <test-case name="normalize10" FilePath="unicode/normalize">
+        <query name="normalize10"/>
+        <output-file compare="Fragment">normalize10.out</output-file>
+      </test-case>
+      <test-case name="normalize11" FilePath="unicode/normalize">
+        <query name="normalize11"/>
+        <output-file compare="Fragment">normalize11.out</output-file>
+      </test-case>
+      <test-case name="normalize12" FilePath="unicode/normalize">
+        <query name="normalize12"/>
+        <output-file compare="Fragment">normalize12.out</output-file>
+      </test-case>
+      <test-case name="normalize13" FilePath="unicode/normalize">
+        <query name="normalize13"/>
+        <output-file compare="Fragment">normalize13.out</output-file>
+      </test-case>
+      <test-case name="normalize14" FilePath="unicode/normalize">
+        <query name="normalize14"/>
+        <output-file compare="Fragment">normalize14.out</output-file>
+      </test-case>
+      <test-case name="normalize5" FilePath="unicode/normalize">
+        <query name="normalize5"/>
+        <output-file compare="Fragment">normalize5.out</output-file>
+      </test-case>
+      <test-case name="normalize16" FilePath="unicode/normalize">
+        <query name="normalize16"/>
+        <output-file compare="Fragment">normalize16.out</output-file>
+      </test-case>
+      <test-case name="normalize17" FilePath="unicode/normalize">
+        <query name="normalize17"/>
+        <output-file compare="Fragment">normalize17.out</output-file>
+      </test-case>
+      <test-case name="normalize18" FilePath="unicode/normalize">
+        <query name="normalize18"/>
+        <output-file compare="Fragment">normalize18.out</output-file>
+      </test-case>
+    </test-group>
+    <test-group name="casefold">
+      <GroupInfo>
+        <title>Tests for xqilla:casefold()</title>
+      </GroupInfo>
+      <test-case name="casefold1" FilePath="unicode/casefold">
+        <query name="casefold1"/>
+        <output-file compare="Fragment">casefold1.out</output-file>
+      </test-case>
+    </test-group>
+    <test-group name="specialcasing">
+      <GroupInfo>
+        <title>Tests for specialcasing</title>
+      </GroupInfo>
+      <test-case name="specialcasing1" FilePath="unicode/specialcasing">
+        <query name="specialcasing1"/>
+        <output-file compare="Fragment">specialcasing1.out</output-file>
+      </test-case>
+    </test-group>
+    <test-group name="words">
+      <GroupInfo>
+        <title>Tests for word bounding</title>
+      </GroupInfo>
+      <test-case name="words1" FilePath="unicode/words">
+        <query name="words1"/>
+        <output-file compare="Fragment">words1.out</output-file>
+      </test-case>
+    </test-group>
+    <test-group name="sentences">
+      <GroupInfo>
+        <title>Tests for sentence bounding</title>
+      </GroupInfo>
+      <test-case name="sentences1" FilePath="unicode/sentences">
+        <query name="sentences1"/>
+        <output-file compare="Fragment">sentences1.out</output-file>
+      </test-case>
+    </test-group>
+  </test-group>
+  
+  <test-group name="modules">
+    <GroupInfo>
+      <title>Tests for XQuery 1.0 2nd Edition Module Semantics</title>
+    </GroupInfo>
+
+    <test-case name="module1" FilePath="modules">
+      <state time="0">
+        <query name="module1"/>
+        <output-file compare="Fragment">module1.out</output-file>
+      </state>
+    </test-case>
+    <test-case name="module2" FilePath="modules">
+      <state time="0">
+        <query name="module2"/>
+        <output-file compare="Fragment">module2.out</output-file>
+      </state>
+    </test-case>
+    <test-case name="module3" FilePath="modules">
+      <state time="0">
+        <query name="module3"/>
+        <output-file compare="Fragment">module3.out</output-file>
+      </state>
+    </test-case>
+    <test-case name="module4" FilePath="modules">
+      <state time="0">
+        <query name="module4"/>
+        <output-file compare="Fragment">module4.out</output-file>
+      </state>
+    </test-case>
+    <test-case name="module5" FilePath="modules">
+      <query name="module5"/>
+      <expected-error>XQST0054</expected-error>
+    </test-case>
+    <test-case name="module6" FilePath="modules">
+      <query name="module6"/>
+      <output-file compare="Fragment">module6.out</output-file>
+      <expected-error>XPST0008</expected-error>
+    </test-case>
+    <test-case name="module7" FilePath="modules">
+      <query name="module7"/>
+      <expected-error>XQST0054</expected-error>
+    </test-case>
+    <test-case name="module8" FilePath="modules">
+      <query name="module8"/>
+      <output-file compare="Fragment">module8.out</output-file>
+      <expected-error>XPST0008</expected-error>
+    </test-case>
+    <test-case name="module9" FilePath="modules">
+      <query name="module9"/>
+      <output-file compare="Fragment">module9.out</output-file>
+    </test-case>
+  </test-group>
+
+  <test-group name="xquery11">
+    <GroupInfo>
+      <title>Tests for XQuery 1.1 functionality</title>
+    </GroupInfo>
+
+    <test-group name="flwor">
+      <GroupInfo>
+        <title>Tests for XQuery 1.1 FLWOR</title>
+      </GroupInfo>
+
+      <test-case name="flwor1" FilePath="xquery11/flwor">
+        <query name="flwor1"/>
+        <output-file compare="Fragment">flwor1.out</output-file>
+      </test-case>
+      <test-case name="flwor2" FilePath="xquery11/flwor">
+        <query name="flwor2"/>
+        <output-file compare="Fragment">flwor2.out</output-file>
+      </test-case>
+      <test-case name="count1" FilePath="xquery11/flwor">
+        <query name="count1"/>
+        <output-file compare="Fragment">count1.out</output-file>
+      </test-case>
+      <test-case name="count2" FilePath="xquery11/flwor">
+        <query name="count2"/>
+        <output-file compare="Fragment">count2.out</output-file>
+      </test-case>
+      <test-case name="count3" FilePath="xquery11/flwor">
+        <query name="count3"/>
+        <output-file compare="Fragment">count3.out</output-file>
+      </test-case>
+      <test-case name="count4" FilePath="xquery11/flwor">
+        <query name="count4"/>
+        <output-file compare="Fragment">count4.out</output-file>
+      </test-case>
+      <test-case name="count5" FilePath="xquery11/flwor">
+        <query name="count5"/>
+        <output-file compare="Fragment">count5.out</output-file>
+      </test-case>
+      <test-case name="count6" FilePath="xquery11/flwor">
+        <query name="count6"/>
+        <output-file compare="Fragment">count6.out</output-file>
+      </test-case>
+      <test-case name="count7" FilePath="xquery11/flwor">
+        <query name="count7"/>
+        <output-file compare="Fragment">count7.out</output-file>
+      </test-case>
+    </test-group>
+
+    <test-group name="functiondecl">
+      <GroupInfo>
+        <title>Tests for XQuery 1.1 Function Declarations</title>
+      </GroupInfo>
+
+      <test-case name="private1" FilePath="xquery11/functiondecl">
+        <module namespace="http://snelson.org.uk/test/private_module1">private_module1</module>
+        <query name="private1"/>
+        <expected-error>XPST0017</expected-error>
+      </test-case>
+      <test-case name="private2" FilePath="xquery11/functiondecl">
+        <module namespace="http://snelson.org.uk/test/private_module1">private_module1</module>
+        <query name="private2"/>
+        <output-file compare="Fragment">private2.out</output-file>
+      </test-case>
+      <test-case name="private3" FilePath="xquery11/functiondecl">
+        <module namespace="http://snelson.org.uk/test/private_module1">private_module1</module>
+        <query name="private3"/>
+        <output-file compare="Fragment">private3.out</output-file>
+      </test-case>
+      <test-case name="private4" FilePath="xquery11/functiondecl">
+        <query name="private4"/>
+        <output-file compare="Fragment">private4.out</output-file>
+      </test-case>
+      <test-case name="private5" FilePath="xquery11/functiondecl">
+        <module namespace="http://snelson.org.uk/test/private_module2">private_module2</module>
+        <query name="private5"/>
+        <expected-error>XQST0048</expected-error>
+      </test-case>
+    </test-group>
+
+    <test-group name="versiondecl">
+      <GroupInfo>
+        <title>Tests for XQuery 1.1 Version Declaration</title>
+      </GroupInfo>
+
+      <test-case name="version1" FilePath="xquery11/versiondecl">
+        <query name="version1"/>
+        <output-file compare="Fragment">version1.out</output-file>
+      </test-case>
+      <test-case name="version2" FilePath="xquery11/versiondecl">
+        <query name="version2"/>
+        <expected-error>XPST0003</expected-error>
+      </test-case>
+    </test-group>
+
+    <test-group name="hofunctions">
+      <GroupInfo>
+        <title>Tests for higher order functions</title>
+      </GroupInfo>
+      <test-case name="hofunctions1" FilePath="hofunctions/">
+        <query name="hofunctions1"/>
+        <output-file compare="Fragment">hofunctions1.out</output-file>
+      </test-case>
+      <test-case name="hofunctions2" FilePath="hofunctions/">
+        <module namespace="http://snelson.org.uk/functions/functional">functional</module>
+        <query name="curry"/>
+        <output-file compare="Fragment">curry.out</output-file>
+      </test-case>
+      <test-case name="hofunctions3" FilePath="hofunctions/">
+        <module namespace="http://snelson.org.uk/functions/functional">functional</module>
+        <query name="fibonacci"/>
+        <output-file compare="Fragment">fibonacci.out</output-file>
+      </test-case>
+      <test-case name="hofunctions4" FilePath="hofunctions/">
+        <query name="hof4"/>
+        <output-file compare="Fragment">hof4.out</output-file>
+      </test-case>
+      <test-case name="hofunctions5" FilePath="hofunctions/">
+        <query name="hof5"/>
+        <output-file compare="Fragment">hof5.out</output-file>
+      </test-case>
+      <test-case name="hofunctions6" FilePath="hofunctions/">
+        <query name="hof6"/>
+        <output-file compare="Fragment">hof6.out</output-file>
+      </test-case>
+      <test-case name="hofunctions7" FilePath="hofunctions/">
+        <query name="hof7"/>
+        <expected-error>XPTY0004</expected-error>
+      </test-case>
+      <test-case name="hofunctions8" FilePath="hofunctions/">
+        <query name="hof8"/>
+        <expected-error>XPTY0004</expected-error>
+      </test-case>
+      <test-case name="hofunctions9" FilePath="hofunctions/">
+        <query name="hof9"/>
+        <expected-error>XPTY0004</expected-error>
+      </test-case>
+      <test-case name="hofunctions10" FilePath="hofunctions/">
+        <query name="hof10"/>
+        <output-file compare="Fragment">hof10.out</output-file>
+      </test-case>
+      <test-case name="hofunctions11" FilePath="hofunctions/">
+        <query name="hof11"/>
+        <expected-error>XPTY0004</expected-error>
+      </test-case>
+      <test-case name="hofunctions12" FilePath="hofunctions/">
+        <query name="hof12"/>
+        <expected-error>XPTY0004</expected-error>
+      </test-case>
+      <test-case name="hofunctions13" FilePath="hofunctions/">
+        <query name="hof13"/>
+        <expected-error>XPDY0002</expected-error>
+      </test-case>
+<!--       <test-case name="hofunctions14" FilePath="hofunctions/"> -->
+<!--         <query name="hof14"/> -->
+<!--         <expected-error>XPDY0002</expected-error> -->
+<!--       </test-case> -->
+    </test-group>
+
+    <test-group name="modules">
+      <GroupInfo>
+        <title>Tests for XQuery 1.1 Module Semantics</title>
+      </GroupInfo>
+
+      <test-case name="module11_1" FilePath="xquery11/modules">
+        <query name="module11_1"/>
+        <output-file compare="Fragment">module11_1.out</output-file>
+      </test-case>
+      <test-case name="module11_2" FilePath="xquery11/modules">
+        <query name="module11_2"/>
+        <expected-error>XPST0008</expected-error>
+      </test-case>
+    </test-group>
+
+  </test-group>
+
+  <test-group name="maps">
+    <GroupInfo>
+      <title>Tests for proposed XSLT 3.0 maps</title>
+    </GroupInfo>
+
+    <test-case name="maps1" FilePath="maps">
+      <query name="maps1"/>
+      <output-file compare="Fragment">maps1.out</output-file>
+    </test-case>
+
+  </test-group>
+
+  <test-group name="rewrite_rules">
+    <GroupInfo>
+      <title>Tests for rewrite rules support</title>
+    </GroupInfo>
+
+    <test-case name="testrw" FilePath="rewrite_rules">
+      <query name="testrw"/>
+      <param qname="a">20</param>
+      <output-file compare="Fragment">testrw.out</output-file>
+    </test-case>
+  </test-group>
+
+  <test-group name="json">
+    <GroupInfo>
+      <title>Tests for JSON parsing and serialization</title>
+    </GroupInfo>
+
+    <test-case name="json1" FilePath="json">
+      <query name="json1"/>
+      <output-file compare="Fragment">json1.out</output-file>
+    </test-case>
+  </test-group>
+
+</test-suite>

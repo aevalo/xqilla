@@ -1,0 +1,3335 @@
+<result>
+<code_point value="65">
+<fold>97</fold>
+</code_point>
+<code_point value="66">
+<fold>98</fold>
+</code_point>
+<code_point value="67">
+<fold>99</fold>
+</code_point>
+<code_point value="68">
+<fold>100</fold>
+</code_point>
+<code_point value="69">
+<fold>101</fold>
+</code_point>
+<code_point value="70">
+<fold>102</fold>
+</code_point>
+<code_point value="71">
+<fold>103</fold>
+</code_point>
+<code_point value="72">
+<fold>104</fold>
+</code_point>
+<code_point value="73">
+<fold>105</fold>
+</code_point>
+<code_point value="74">
+<fold>106</fold>
+</code_point>
+<code_point value="75">
+<fold>107</fold>
+</code_point>
+<code_point value="76">
+<fold>108</fold>
+</code_point>
+<code_point value="77">
+<fold>109</fold>
+</code_point>
+<code_point value="78">
+<fold>110</fold>
+</code_point>
+<code_point value="79">
+<fold>111</fold>
+</code_point>
+<code_point value="80">
+<fold>112</fold>
+</code_point>
+<code_point value="81">
+<fold>113</fold>
+</code_point>
+<code_point value="82">
+<fold>114</fold>
+</code_point>
+<code_point value="83">
+<fold>115</fold>
+</code_point>
+<code_point value="84">
+<fold>116</fold>
+</code_point>
+<code_point value="85">
+<fold>117</fold>
+</code_point>
+<code_point value="86">
+<fold>118</fold>
+</code_point>
+<code_point value="87">
+<fold>119</fold>
+</code_point>
+<code_point value="88">
+<fold>120</fold>
+</code_point>
+<code_point value="89">
+<fold>121</fold>
+</code_point>
+<code_point value="90">
+<fold>122</fold>
+</code_point>
+<code_point value="181">
+<fold>956</fold>
+</code_point>
+<code_point value="192">
+<fold>224</fold>
+</code_point>
+<code_point value="193">
+<fold>225</fold>
+</code_point>
+<code_point value="194">
+<fold>226</fold>
+</code_point>
+<code_point value="195">
+<fold>227</fold>
+</code_point>
+<code_point value="196">
+<fold>228</fold>
+</code_point>
+<code_point value="197">
+<fold>229</fold>
+</code_point>
+<code_point value="198">
+<fold>230</fold>
+</code_point>
+<code_point value="199">
+<fold>231</fold>
+</code_point>
+<code_point value="200">
+<fold>232</fold>
+</code_point>
+<code_point value="201">
+<fold>233</fold>
+</code_point>
+<code_point value="202">
+<fold>234</fold>
+</code_point>
+<code_point value="203">
+<fold>235</fold>
+</code_point>
+<code_point value="204">
+<fold>236</fold>
+</code_point>
+<code_point value="205">
+<fold>237</fold>
+</code_point>
+<code_point value="206">
+<fold>238</fold>
+</code_point>
+<code_point value="207">
+<fold>239</fold>
+</code_point>
+<code_point value="208">
+<fold>240</fold>
+</code_point>
+<code_point value="209">
+<fold>241</fold>
+</code_point>
+<code_point value="210">
+<fold>242</fold>
+</code_point>
+<code_point value="211">
+<fold>243</fold>
+</code_point>
+<code_point value="212">
+<fold>244</fold>
+</code_point>
+<code_point value="213">
+<fold>245</fold>
+</code_point>
+<code_point value="214">
+<fold>246</fold>
+</code_point>
+<code_point value="216">
+<fold>248</fold>
+</code_point>
+<code_point value="217">
+<fold>249</fold>
+</code_point>
+<code_point value="218">
+<fold>250</fold>
+</code_point>
+<code_point value="219">
+<fold>251</fold>
+</code_point>
+<code_point value="220">
+<fold>252</fold>
+</code_point>
+<code_point value="221">
+<fold>253</fold>
+</code_point>
+<code_point value="222">
+<fold>254</fold>
+</code_point>
+<code_point value="223">
+<fold>115 115</fold>
+</code_point>
+<code_point value="256">
+<fold>257</fold>
+</code_point>
+<code_point value="258">
+<fold>259</fold>
+</code_point>
+<code_point value="260">
+<fold>261</fold>
+</code_point>
+<code_point value="262">
+<fold>263</fold>
+</code_point>
+<code_point value="264">
+<fold>265</fold>
+</code_point>
+<code_point value="266">
+<fold>267</fold>
+</code_point>
+<code_point value="268">
+<fold>269</fold>
+</code_point>
+<code_point value="270">
+<fold>271</fold>
+</code_point>
+<code_point value="272">
+<fold>273</fold>
+</code_point>
+<code_point value="274">
+<fold>275</fold>
+</code_point>
+<code_point value="276">
+<fold>277</fold>
+</code_point>
+<code_point value="278">
+<fold>279</fold>
+</code_point>
+<code_point value="280">
+<fold>281</fold>
+</code_point>
+<code_point value="282">
+<fold>283</fold>
+</code_point>
+<code_point value="284">
+<fold>285</fold>
+</code_point>
+<code_point value="286">
+<fold>287</fold>
+</code_point>
+<code_point value="288">
+<fold>289</fold>
+</code_point>
+<code_point value="290">
+<fold>291</fold>
+</code_point>
+<code_point value="292">
+<fold>293</fold>
+</code_point>
+<code_point value="294">
+<fold>295</fold>
+</code_point>
+<code_point value="296">
+<fold>297</fold>
+</code_point>
+<code_point value="298">
+<fold>299</fold>
+</code_point>
+<code_point value="300">
+<fold>301</fold>
+</code_point>
+<code_point value="302">
+<fold>303</fold>
+</code_point>
+<code_point value="304">
+<fold>105 775</fold>
+</code_point>
+<code_point value="306">
+<fold>307</fold>
+</code_point>
+<code_point value="308">
+<fold>309</fold>
+</code_point>
+<code_point value="310">
+<fold>311</fold>
+</code_point>
+<code_point value="313">
+<fold>314</fold>
+</code_point>
+<code_point value="315">
+<fold>316</fold>
+</code_point>
+<code_point value="317">
+<fold>318</fold>
+</code_point>
+<code_point value="319">
+<fold>320</fold>
+</code_point>
+<code_point value="321">
+<fold>322</fold>
+</code_point>
+<code_point value="323">
+<fold>324</fold>
+</code_point>
+<code_point value="325">
+<fold>326</fold>
+</code_point>
+<code_point value="327">
+<fold>328</fold>
+</code_point>
+<code_point value="329">
+<fold>700 110</fold>
+</code_point>
+<code_point value="330">
+<fold>331</fold>
+</code_point>
+<code_point value="332">
+<fold>333</fold>
+</code_point>
+<code_point value="334">
+<fold>335</fold>
+</code_point>
+<code_point value="336">
+<fold>337</fold>
+</code_point>
+<code_point value="338">
+<fold>339</fold>
+</code_point>
+<code_point value="340">
+<fold>341</fold>
+</code_point>
+<code_point value="342">
+<fold>343</fold>
+</code_point>
+<code_point value="344">
+<fold>345</fold>
+</code_point>
+<code_point value="346">
+<fold>347</fold>
+</code_point>
+<code_point value="348">
+<fold>349</fold>
+</code_point>
+<code_point value="350">
+<fold>351</fold>
+</code_point>
+<code_point value="352">
+<fold>353</fold>
+</code_point>
+<code_point value="354">
+<fold>355</fold>
+</code_point>
+<code_point value="356">
+<fold>357</fold>
+</code_point>
+<code_point value="358">
+<fold>359</fold>
+</code_point>
+<code_point value="360">
+<fold>361</fold>
+</code_point>
+<code_point value="362">
+<fold>363</fold>
+</code_point>
+<code_point value="364">
+<fold>365</fold>
+</code_point>
+<code_point value="366">
+<fold>367</fold>
+</code_point>
+<code_point value="368">
+<fold>369</fold>
+</code_point>
+<code_point value="370">
+<fold>371</fold>
+</code_point>
+<code_point value="372">
+<fold>373</fold>
+</code_point>
+<code_point value="374">
+<fold>375</fold>
+</code_point>
+<code_point value="376">
+<fold>255</fold>
+</code_point>
+<code_point value="377">
+<fold>378</fold>
+</code_point>
+<code_point value="379">
+<fold>380</fold>
+</code_point>
+<code_point value="381">
+<fold>382</fold>
+</code_point>
+<code_point value="383">
+<fold>115</fold>
+</code_point>
+<code_point value="385">
+<fold>595</fold>
+</code_point>
+<code_point value="386">
+<fold>387</fold>
+</code_point>
+<code_point value="388">
+<fold>389</fold>
+</code_point>
+<code_point value="390">
+<fold>596</fold>
+</code_point>
+<code_point value="391">
+<fold>392</fold>
+</code_point>
+<code_point value="393">
+<fold>598</fold>
+</code_point>
+<code_point value="394">
+<fold>599</fold>
+</code_point>
+<code_point value="395">
+<fold>396</fold>
+</code_point>
+<code_point value="398">
+<fold>477</fold>
+</code_point>
+<code_point value="399">
+<fold>601</fold>
+</code_point>
+<code_point value="400">
+<fold>603</fold>
+</code_point>
+<code_point value="401">
+<fold>402</fold>
+</code_point>
+<code_point value="403">
+<fold>608</fold>
+</code_point>
+<code_point value="404">
+<fold>611</fold>
+</code_point>
+<code_point value="406">
+<fold>617</fold>
+</code_point>
+<code_point value="407">
+<fold>616</fold>
+</code_point>
+<code_point value="408">
+<fold>409</fold>
+</code_point>
+<code_point value="412">
+<fold>623</fold>
+</code_point>
+<code_point value="413">
+<fold>626</fold>
+</code_point>
+<code_point value="415">
+<fold>629</fold>
+</code_point>
+<code_point value="416">
+<fold>417</fold>
+</code_point>
+<code_point value="418">
+<fold>419</fold>
+</code_point>
+<code_point value="420">
+<fold>421</fold>
+</code_point>
+<code_point value="422">
+<fold>640</fold>
+</code_point>
+<code_point value="423">
+<fold>424</fold>
+</code_point>
+<code_point value="425">
+<fold>643</fold>
+</code_point>
+<code_point value="428">
+<fold>429</fold>
+</code_point>
+<code_point value="430">
+<fold>648</fold>
+</code_point>
+<code_point value="431">
+<fold>432</fold>
+</code_point>
+<code_point value="433">
+<fold>650</fold>
+</code_point>
+<code_point value="434">
+<fold>651</fold>
+</code_point>
+<code_point value="435">
+<fold>436</fold>
+</code_point>
+<code_point value="437">
+<fold>438</fold>
+</code_point>
+<code_point value="439">
+<fold>658</fold>
+</code_point>
+<code_point value="440">
+<fold>441</fold>
+</code_point>
+<code_point value="444">
+<fold>445</fold>
+</code_point>
+<code_point value="452">
+<fold>454</fold>
+</code_point>
+<code_point value="453">
+<fold>454</fold>
+</code_point>
+<code_point value="455">
+<fold>457</fold>
+</code_point>
+<code_point value="456">
+<fold>457</fold>
+</code_point>
+<code_point value="458">
+<fold>460</fold>
+</code_point>
+<code_point value="459">
+<fold>460</fold>
+</code_point>
+<code_point value="461">
+<fold>462</fold>
+</code_point>
+<code_point value="463">
+<fold>464</fold>
+</code_point>
+<code_point value="465">
+<fold>466</fold>
+</code_point>
+<code_point value="467">
+<fold>468</fold>
+</code_point>
+<code_point value="469">
+<fold>470</fold>
+</code_point>
+<code_point value="471">
+<fold>472</fold>
+</code_point>
+<code_point value="473">
+<fold>474</fold>
+</code_point>
+<code_point value="475">
+<fold>476</fold>
+</code_point>
+<code_point value="478">
+<fold>479</fold>
+</code_point>
+<code_point value="480">
+<fold>481</fold>
+</code_point>
+<code_point value="482">
+<fold>483</fold>
+</code_point>
+<code_point value="484">
+<fold>485</fold>
+</code_point>
+<code_point value="486">
+<fold>487</fold>
+</code_point>
+<code_point value="488">
+<fold>489</fold>
+</code_point>
+<code_point value="490">
+<fold>491</fold>
+</code_point>
+<code_point value="492">
+<fold>493</fold>
+</code_point>
+<code_point value="494">
+<fold>495</fold>
+</code_point>
+<code_point value="496">
+<fold>106 780</fold>
+</code_point>
+<code_point value="497">
+<fold>499</fold>
+</code_point>
+<code_point value="498">
+<fold>499</fold>
+</code_point>
+<code_point value="500">
+<fold>501</fold>
+</code_point>
+<code_point value="502">
+<fold>405</fold>
+</code_point>
+<code_point value="503">
+<fold>447</fold>
+</code_point>
+<code_point value="504">
+<fold>505</fold>
+</code_point>
+<code_point value="506">
+<fold>507</fold>
+</code_point>
+<code_point value="508">
+<fold>509</fold>
+</code_point>
+<code_point value="510">
+<fold>511</fold>
+</code_point>
+<code_point value="512">
+<fold>513</fold>
+</code_point>
+<code_point value="514">
+<fold>515</fold>
+</code_point>
+<code_point value="516">
+<fold>517</fold>
+</code_point>
+<code_point value="518">
+<fold>519</fold>
+</code_point>
+<code_point value="520">
+<fold>521</fold>
+</code_point>
+<code_point value="522">
+<fold>523</fold>
+</code_point>
+<code_point value="524">
+<fold>525</fold>
+</code_point>
+<code_point value="526">
+<fold>527</fold>
+</code_point>
+<code_point value="528">
+<fold>529</fold>
+</code_point>
+<code_point value="530">
+<fold>531</fold>
+</code_point>
+<code_point value="532">
+<fold>533</fold>
+</code_point>
+<code_point value="534">
+<fold>535</fold>
+</code_point>
+<code_point value="536">
+<fold>537</fold>
+</code_point>
+<code_point value="538">
+<fold>539</fold>
+</code_point>
+<code_point value="540">
+<fold>541</fold>
+</code_point>
+<code_point value="542">
+<fold>543</fold>
+</code_point>
+<code_point value="544">
+<fold>414</fold>
+</code_point>
+<code_point value="546">
+<fold>547</fold>
+</code_point>
+<code_point value="548">
+<fold>549</fold>
+</code_point>
+<code_point value="550">
+<fold>551</fold>
+</code_point>
+<code_point value="552">
+<fold>553</fold>
+</code_point>
+<code_point value="554">
+<fold>555</fold>
+</code_point>
+<code_point value="556">
+<fold>557</fold>
+</code_point>
+<code_point value="558">
+<fold>559</fold>
+</code_point>
+<code_point value="560">
+<fold>561</fold>
+</code_point>
+<code_point value="562">
+<fold>563</fold>
+</code_point>
+<code_point value="570">
+<fold>11365</fold>
+</code_point>
+<code_point value="571">
+<fold>572</fold>
+</code_point>
+<code_point value="573">
+<fold>410</fold>
+</code_point>
+<code_point value="574">
+<fold>11366</fold>
+</code_point>
+<code_point value="577">
+<fold>578</fold>
+</code_point>
+<code_point value="579">
+<fold>384</fold>
+</code_point>
+<code_point value="580">
+<fold>649</fold>
+</code_point>
+<code_point value="581">
+<fold>652</fold>
+</code_point>
+<code_point value="582">
+<fold>583</fold>
+</code_point>
+<code_point value="584">
+<fold>585</fold>
+</code_point>
+<code_point value="586">
+<fold>587</fold>
+</code_point>
+<code_point value="588">
+<fold>589</fold>
+</code_point>
+<code_point value="590">
+<fold>591</fold>
+</code_point>
+<code_point value="837">
+<fold>953</fold>
+</code_point>
+<code_point value="880">
+<fold>881</fold>
+</code_point>
+<code_point value="882">
+<fold>883</fold>
+</code_point>
+<code_point value="886">
+<fold>887</fold>
+</code_point>
+<code_point value="902">
+<fold>940</fold>
+</code_point>
+<code_point value="904">
+<fold>941</fold>
+</code_point>
+<code_point value="905">
+<fold>942</fold>
+</code_point>
+<code_point value="906">
+<fold>943</fold>
+</code_point>
+<code_point value="908">
+<fold>972</fold>
+</code_point>
+<code_point value="910">
+<fold>973</fold>
+</code_point>
+<code_point value="911">
+<fold>974</fold>
+</code_point>
+<code_point value="912">
+<fold>953 776 769</fold>
+</code_point>
+<code_point value="913">
+<fold>945</fold>
+</code_point>
+<code_point value="914">
+<fold>946</fold>
+</code_point>
+<code_point value="915">
+<fold>947</fold>
+</code_point>
+<code_point value="916">
+<fold>948</fold>
+</code_point>
+<code_point value="917">
+<fold>949</fold>
+</code_point>
+<code_point value="918">
+<fold>950</fold>
+</code_point>
+<code_point value="919">
+<fold>951</fold>
+</code_point>
+<code_point value="920">
+<fold>952</fold>
+</code_point>
+<code_point value="921">
+<fold>953</fold>
+</code_point>
+<code_point value="922">
+<fold>954</fold>
+</code_point>
+<code_point value="923">
+<fold>955</fold>
+</code_point>
+<code_point value="924">
+<fold>956</fold>
+</code_point>
+<code_point value="925">
+<fold>957</fold>
+</code_point>
+<code_point value="926">
+<fold>958</fold>
+</code_point>
+<code_point value="927">
+<fold>959</fold>
+</code_point>
+<code_point value="928">
+<fold>960</fold>
+</code_point>
+<code_point value="929">
+<fold>961</fold>
+</code_point>
+<code_point value="931">
+<fold>963</fold>
+</code_point>
+<code_point value="932">
+<fold>964</fold>
+</code_point>
+<code_point value="933">
+<fold>965</fold>
+</code_point>
+<code_point value="934">
+<fold>966</fold>
+</code_point>
+<code_point value="935">
+<fold>967</fold>
+</code_point>
+<code_point value="936">
+<fold>968</fold>
+</code_point>
+<code_point value="937">
+<fold>969</fold>
+</code_point>
+<code_point value="938">
+<fold>970</fold>
+</code_point>
+<code_point value="939">
+<fold>971</fold>
+</code_point>
+<code_point value="944">
+<fold>965 776 769</fold>
+</code_point>
+<code_point value="962">
+<fold>963</fold>
+</code_point>
+<code_point value="975">
+<fold>983</fold>
+</code_point>
+<code_point value="976">
+<fold>946</fold>
+</code_point>
+<code_point value="977">
+<fold>952</fold>
+</code_point>
+<code_point value="981">
+<fold>966</fold>
+</code_point>
+<code_point value="982">
+<fold>960</fold>
+</code_point>
+<code_point value="984">
+<fold>985</fold>
+</code_point>
+<code_point value="986">
+<fold>987</fold>
+</code_point>
+<code_point value="988">
+<fold>989</fold>
+</code_point>
+<code_point value="990">
+<fold>991</fold>
+</code_point>
+<code_point value="992">
+<fold>993</fold>
+</code_point>
+<code_point value="994">
+<fold>995</fold>
+</code_point>
+<code_point value="996">
+<fold>997</fold>
+</code_point>
+<code_point value="998">
+<fold>999</fold>
+</code_point>
+<code_point value="1000">
+<fold>1001</fold>
+</code_point>
+<code_point value="1002">
+<fold>1003</fold>
+</code_point>
+<code_point value="1004">
+<fold>1005</fold>
+</code_point>
+<code_point value="1006">
+<fold>1007</fold>
+</code_point>
+<code_point value="1008">
+<fold>954</fold>
+</code_point>
+<code_point value="1009">
+<fold>961</fold>
+</code_point>
+<code_point value="1012">
+<fold>952</fold>
+</code_point>
+<code_point value="1013">
+<fold>949</fold>
+</code_point>
+<code_point value="1015">
+<fold>1016</fold>
+</code_point>
+<code_point value="1017">
+<fold>1010</fold>
+</code_point>
+<code_point value="1018">
+<fold>1019</fold>
+</code_point>
+<code_point value="1021">
+<fold>891</fold>
+</code_point>
+<code_point value="1022">
+<fold>892</fold>
+</code_point>
+<code_point value="1023">
+<fold>893</fold>
+</code_point>
+<code_point value="1024">
+<fold>1104</fold>
+</code_point>
+<code_point value="1025">
+<fold>1105</fold>
+</code_point>
+<code_point value="1026">
+<fold>1106</fold>
+</code_point>
+<code_point value="1027">
+<fold>1107</fold>
+</code_point>
+<code_point value="1028">
+<fold>1108</fold>
+</code_point>
+<code_point value="1029">
+<fold>1109</fold>
+</code_point>
+<code_point value="1030">
+<fold>1110</fold>
+</code_point>
+<code_point value="1031">
+<fold>1111</fold>
+</code_point>
+<code_point value="1032">
+<fold>1112</fold>
+</code_point>
+<code_point value="1033">
+<fold>1113</fold>
+</code_point>
+<code_point value="1034">
+<fold>1114</fold>
+</code_point>
+<code_point value="1035">
+<fold>1115</fold>
+</code_point>
+<code_point value="1036">
+<fold>1116</fold>
+</code_point>
+<code_point value="1037">
+<fold>1117</fold>
+</code_point>
+<code_point value="1038">
+<fold>1118</fold>
+</code_point>
+<code_point value="1039">
+<fold>1119</fold>
+</code_point>
+<code_point value="1040">
+<fold>1072</fold>
+</code_point>
+<code_point value="1041">
+<fold>1073</fold>
+</code_point>
+<code_point value="1042">
+<fold>1074</fold>
+</code_point>
+<code_point value="1043">
+<fold>1075</fold>
+</code_point>
+<code_point value="1044">
+<fold>1076</fold>
+</code_point>
+<code_point value="1045">
+<fold>1077</fold>
+</code_point>
+<code_point value="1046">
+<fold>1078</fold>
+</code_point>
+<code_point value="1047">
+<fold>1079</fold>
+</code_point>
+<code_point value="1048">
+<fold>1080</fold>
+</code_point>
+<code_point value="1049">
+<fold>1081</fold>
+</code_point>
+<code_point value="1050">
+<fold>1082</fold>
+</code_point>
+<code_point value="1051">
+<fold>1083</fold>
+</code_point>
+<code_point value="1052">
+<fold>1084</fold>
+</code_point>
+<code_point value="1053">
+<fold>1085</fold>
+</code_point>
+<code_point value="1054">
+<fold>1086</fold>
+</code_point>
+<code_point value="1055">
+<fold>1087</fold>
+</code_point>
+<code_point value="1056">
+<fold>1088</fold>
+</code_point>
+<code_point value="1057">
+<fold>1089</fold>
+</code_point>
+<code_point value="1058">
+<fold>1090</fold>
+</code_point>
+<code_point value="1059">
+<fold>1091</fold>
+</code_point>
+<code_point value="1060">
+<fold>1092</fold>
+</code_point>
+<code_point value="1061">
+<fold>1093</fold>
+</code_point>
+<code_point value="1062">
+<fold>1094</fold>
+</code_point>
+<code_point value="1063">
+<fold>1095</fold>
+</code_point>
+<code_point value="1064">
+<fold>1096</fold>
+</code_point>
+<code_point value="1065">
+<fold>1097</fold>
+</code_point>
+<code_point value="1066">
+<fold>1098</fold>
+</code_point>
+<code_point value="1067">
+<fold>1099</fold>
+</code_point>
+<code_point value="1068">
+<fold>1100</fold>
+</code_point>
+<code_point value="1069">
+<fold>1101</fold>
+</code_point>
+<code_point value="1070">
+<fold>1102</fold>
+</code_point>
+<code_point value="1071">
+<fold>1103</fold>
+</code_point>
+<code_point value="1120">
+<fold>1121</fold>
+</code_point>
+<code_point value="1122">
+<fold>1123</fold>
+</code_point>
+<code_point value="1124">
+<fold>1125</fold>
+</code_point>
+<code_point value="1126">
+<fold>1127</fold>
+</code_point>
+<code_point value="1128">
+<fold>1129</fold>
+</code_point>
+<code_point value="1130">
+<fold>1131</fold>
+</code_point>
+<code_point value="1132">
+<fold>1133</fold>
+</code_point>
+<code_point value="1134">
+<fold>1135</fold>
+</code_point>
+<code_point value="1136">
+<fold>1137</fold>
+</code_point>
+<code_point value="1138">
+<fold>1139</fold>
+</code_point>
+<code_point value="1140">
+<fold>1141</fold>
+</code_point>
+<code_point value="1142">
+<fold>1143</fold>
+</code_point>
+<code_point value="1144">
+<fold>1145</fold>
+</code_point>
+<code_point value="1146">
+<fold>1147</fold>
+</code_point>
+<code_point value="1148">
+<fold>1149</fold>
+</code_point>
+<code_point value="1150">
+<fold>1151</fold>
+</code_point>
+<code_point value="1152">
+<fold>1153</fold>
+</code_point>
+<code_point value="1162">
+<fold>1163</fold>
+</code_point>
+<code_point value="1164">
+<fold>1165</fold>
+</code_point>
+<code_point value="1166">
+<fold>1167</fold>
+</code_point>
+<code_point value="1168">
+<fold>1169</fold>
+</code_point>
+<code_point value="1170">
+<fold>1171</fold>
+</code_point>
+<code_point value="1172">
+<fold>1173</fold>
+</code_point>
+<code_point value="1174">
+<fold>1175</fold>
+</code_point>
+<code_point value="1176">
+<fold>1177</fold>
+</code_point>
+<code_point value="1178">
+<fold>1179</fold>
+</code_point>
+<code_point value="1180">
+<fold>1181</fold>
+</code_point>
+<code_point value="1182">
+<fold>1183</fold>
+</code_point>
+<code_point value="1184">
+<fold>1185</fold>
+</code_point>
+<code_point value="1186">
+<fold>1187</fold>
+</code_point>
+<code_point value="1188">
+<fold>1189</fold>
+</code_point>
+<code_point value="1190">
+<fold>1191</fold>
+</code_point>
+<code_point value="1192">
+<fold>1193</fold>
+</code_point>
+<code_point value="1194">
+<fold>1195</fold>
+</code_point>
+<code_point value="1196">
+<fold>1197</fold>
+</code_point>
+<code_point value="1198">
+<fold>1199</fold>
+</code_point>
+<code_point value="1200">
+<fold>1201</fold>
+</code_point>
+<code_point value="1202">
+<fold>1203</fold>
+</code_point>
+<code_point value="1204">
+<fold>1205</fold>
+</code_point>
+<code_point value="1206">
+<fold>1207</fold>
+</code_point>
+<code_point value="1208">
+<fold>1209</fold>
+</code_point>
+<code_point value="1210">
+<fold>1211</fold>
+</code_point>
+<code_point value="1212">
+<fold>1213</fold>
+</code_point>
+<code_point value="1214">
+<fold>1215</fold>
+</code_point>
+<code_point value="1216">
+<fold>1231</fold>
+</code_point>
+<code_point value="1217">
+<fold>1218</fold>
+</code_point>
+<code_point value="1219">
+<fold>1220</fold>
+</code_point>
+<code_point value="1221">
+<fold>1222</fold>
+</code_point>
+<code_point value="1223">
+<fold>1224</fold>
+</code_point>
+<code_point value="1225">
+<fold>1226</fold>
+</code_point>
+<code_point value="1227">
+<fold>1228</fold>
+</code_point>
+<code_point value="1229">
+<fold>1230</fold>
+</code_point>
+<code_point value="1232">
+<fold>1233</fold>
+</code_point>
+<code_point value="1234">
+<fold>1235</fold>
+</code_point>
+<code_point value="1236">
+<fold>1237</fold>
+</code_point>
+<code_point value="1238">
+<fold>1239</fold>
+</code_point>
+<code_point value="1240">
+<fold>1241</fold>
+</code_point>
+<code_point value="1242">
+<fold>1243</fold>
+</code_point>
+<code_point value="1244">
+<fold>1245</fold>
+</code_point>
+<code_point value="1246">
+<fold>1247</fold>
+</code_point>
+<code_point value="1248">
+<fold>1249</fold>
+</code_point>
+<code_point value="1250">
+<fold>1251</fold>
+</code_point>
+<code_point value="1252">
+<fold>1253</fold>
+</code_point>
+<code_point value="1254">
+<fold>1255</fold>
+</code_point>
+<code_point value="1256">
+<fold>1257</fold>
+</code_point>
+<code_point value="1258">
+<fold>1259</fold>
+</code_point>
+<code_point value="1260">
+<fold>1261</fold>
+</code_point>
+<code_point value="1262">
+<fold>1263</fold>
+</code_point>
+<code_point value="1264">
+<fold>1265</fold>
+</code_point>
+<code_point value="1266">
+<fold>1267</fold>
+</code_point>
+<code_point value="1268">
+<fold>1269</fold>
+</code_point>
+<code_point value="1270">
+<fold>1271</fold>
+</code_point>
+<code_point value="1272">
+<fold>1273</fold>
+</code_point>
+<code_point value="1274">
+<fold>1275</fold>
+</code_point>
+<code_point value="1276">
+<fold>1277</fold>
+</code_point>
+<code_point value="1278">
+<fold>1279</fold>
+</code_point>
+<code_point value="1280">
+<fold>1281</fold>
+</code_point>
+<code_point value="1282">
+<fold>1283</fold>
+</code_point>
+<code_point value="1284">
+<fold>1285</fold>
+</code_point>
+<code_point value="1286">
+<fold>1287</fold>
+</code_point>
+<code_point value="1288">
+<fold>1289</fold>
+</code_point>
+<code_point value="1290">
+<fold>1291</fold>
+</code_point>
+<code_point value="1292">
+<fold>1293</fold>
+</code_point>
+<code_point value="1294">
+<fold>1295</fold>
+</code_point>
+<code_point value="1296">
+<fold>1297</fold>
+</code_point>
+<code_point value="1298">
+<fold>1299</fold>
+</code_point>
+<code_point value="1300">
+<fold>1301</fold>
+</code_point>
+<code_point value="1302">
+<fold>1303</fold>
+</code_point>
+<code_point value="1304">
+<fold>1305</fold>
+</code_point>
+<code_point value="1306">
+<fold>1307</fold>
+</code_point>
+<code_point value="1308">
+<fold>1309</fold>
+</code_point>
+<code_point value="1310">
+<fold>1311</fold>
+</code_point>
+<code_point value="1312">
+<fold>1313</fold>
+</code_point>
+<code_point value="1314">
+<fold>1315</fold>
+</code_point>
+<code_point value="1329">
+<fold>1377</fold>
+</code_point>
+<code_point value="1330">
+<fold>1378</fold>
+</code_point>
+<code_point value="1331">
+<fold>1379</fold>
+</code_point>
+<code_point value="1332">
+<fold>1380</fold>
+</code_point>
+<code_point value="1333">
+<fold>1381</fold>
+</code_point>
+<code_point value="1334">
+<fold>1382</fold>
+</code_point>
+<code_point value="1335">
+<fold>1383</fold>
+</code_point>
+<code_point value="1336">
+<fold>1384</fold>
+</code_point>
+<code_point value="1337">
+<fold>1385</fold>
+</code_point>
+<code_point value="1338">
+<fold>1386</fold>
+</code_point>
+<code_point value="1339">
+<fold>1387</fold>
+</code_point>
+<code_point value="1340">
+<fold>1388</fold>
+</code_point>
+<code_point value="1341">
+<fold>1389</fold>
+</code_point>
+<code_point value="1342">
+<fold>1390</fold>
+</code_point>
+<code_point value="1343">
+<fold>1391</fold>
+</code_point>
+<code_point value="1344">
+<fold>1392</fold>
+</code_point>
+<code_point value="1345">
+<fold>1393</fold>
+</code_point>
+<code_point value="1346">
+<fold>1394</fold>
+</code_point>
+<code_point value="1347">
+<fold>1395</fold>
+</code_point>
+<code_point value="1348">
+<fold>1396</fold>
+</code_point>
+<code_point value="1349">
+<fold>1397</fold>
+</code_point>
+<code_point value="1350">
+<fold>1398</fold>
+</code_point>
+<code_point value="1351">
+<fold>1399</fold>
+</code_point>
+<code_point value="1352">
+<fold>1400</fold>
+</code_point>
+<code_point value="1353">
+<fold>1401</fold>
+</code_point>
+<code_point value="1354">
+<fold>1402</fold>
+</code_point>
+<code_point value="1355">
+<fold>1403</fold>
+</code_point>
+<code_point value="1356">
+<fold>1404</fold>
+</code_point>
+<code_point value="1357">
+<fold>1405</fold>
+</code_point>
+<code_point value="1358">
+<fold>1406</fold>
+</code_point>
+<code_point value="1359">
+<fold>1407</fold>
+</code_point>
+<code_point value="1360">
+<fold>1408</fold>
+</code_point>
+<code_point value="1361">
+<fold>1409</fold>
+</code_point>
+<code_point value="1362">
+<fold>1410</fold>
+</code_point>
+<code_point value="1363">
+<fold>1411</fold>
+</code_point>
+<code_point value="1364">
+<fold>1412</fold>
+</code_point>
+<code_point value="1365">
+<fold>1413</fold>
+</code_point>
+<code_point value="1366">
+<fold>1414</fold>
+</code_point>
+<code_point value="1415">
+<fold>1381 1410</fold>
+</code_point>
+<code_point value="4256">
+<fold>11520</fold>
+</code_point>
+<code_point value="4257">
+<fold>11521</fold>
+</code_point>
+<code_point value="4258">
+<fold>11522</fold>
+</code_point>
+<code_point value="4259">
+<fold>11523</fold>
+</code_point>
+<code_point value="4260">
+<fold>11524</fold>
+</code_point>
+<code_point value="4261">
+<fold>11525</fold>
+</code_point>
+<code_point value="4262">
+<fold>11526</fold>
+</code_point>
+<code_point value="4263">
+<fold>11527</fold>
+</code_point>
+<code_point value="4264">
+<fold>11528</fold>
+</code_point>
+<code_point value="4265">
+<fold>11529</fold>
+</code_point>
+<code_point value="4266">
+<fold>11530</fold>
+</code_point>
+<code_point value="4267">
+<fold>11531</fold>
+</code_point>
+<code_point value="4268">
+<fold>11532</fold>
+</code_point>
+<code_point value="4269">
+<fold>11533</fold>
+</code_point>
+<code_point value="4270">
+<fold>11534</fold>
+</code_point>
+<code_point value="4271">
+<fold>11535</fold>
+</code_point>
+<code_point value="4272">
+<fold>11536</fold>
+</code_point>
+<code_point value="4273">
+<fold>11537</fold>
+</code_point>
+<code_point value="4274">
+<fold>11538</fold>
+</code_point>
+<code_point value="4275">
+<fold>11539</fold>
+</code_point>
+<code_point value="4276">
+<fold>11540</fold>
+</code_point>
+<code_point value="4277">
+<fold>11541</fold>
+</code_point>
+<code_point value="4278">
+<fold>11542</fold>
+</code_point>
+<code_point value="4279">
+<fold>11543</fold>
+</code_point>
+<code_point value="4280">
+<fold>11544</fold>
+</code_point>
+<code_point value="4281">
+<fold>11545</fold>
+</code_point>
+<code_point value="4282">
+<fold>11546</fold>
+</code_point>
+<code_point value="4283">
+<fold>11547</fold>
+</code_point>
+<code_point value="4284">
+<fold>11548</fold>
+</code_point>
+<code_point value="4285">
+<fold>11549</fold>
+</code_point>
+<code_point value="4286">
+<fold>11550</fold>
+</code_point>
+<code_point value="4287">
+<fold>11551</fold>
+</code_point>
+<code_point value="4288">
+<fold>11552</fold>
+</code_point>
+<code_point value="4289">
+<fold>11553</fold>
+</code_point>
+<code_point value="4290">
+<fold>11554</fold>
+</code_point>
+<code_point value="4291">
+<fold>11555</fold>
+</code_point>
+<code_point value="4292">
+<fold>11556</fold>
+</code_point>
+<code_point value="4293">
+<fold>11557</fold>
+</code_point>
+<code_point value="7680">
+<fold>7681</fold>
+</code_point>
+<code_point value="7682">
+<fold>7683</fold>
+</code_point>
+<code_point value="7684">
+<fold>7685</fold>
+</code_point>
+<code_point value="7686">
+<fold>7687</fold>
+</code_point>
+<code_point value="7688">
+<fold>7689</fold>
+</code_point>
+<code_point value="7690">
+<fold>7691</fold>
+</code_point>
+<code_point value="7692">
+<fold>7693</fold>
+</code_point>
+<code_point value="7694">
+<fold>7695</fold>
+</code_point>
+<code_point value="7696">
+<fold>7697</fold>
+</code_point>
+<code_point value="7698">
+<fold>7699</fold>
+</code_point>
+<code_point value="7700">
+<fold>7701</fold>
+</code_point>
+<code_point value="7702">
+<fold>7703</fold>
+</code_point>
+<code_point value="7704">
+<fold>7705</fold>
+</code_point>
+<code_point value="7706">
+<fold>7707</fold>
+</code_point>
+<code_point value="7708">
+<fold>7709</fold>
+</code_point>
+<code_point value="7710">
+<fold>7711</fold>
+</code_point>
+<code_point value="7712">
+<fold>7713</fold>
+</code_point>
+<code_point value="7714">
+<fold>7715</fold>
+</code_point>
+<code_point value="7716">
+<fold>7717</fold>
+</code_point>
+<code_point value="7718">
+<fold>7719</fold>
+</code_point>
+<code_point value="7720">
+<fold>7721</fold>
+</code_point>
+<code_point value="7722">
+<fold>7723</fold>
+</code_point>
+<code_point value="7724">
+<fold>7725</fold>
+</code_point>
+<code_point value="7726">
+<fold>7727</fold>
+</code_point>
+<code_point value="7728">
+<fold>7729</fold>
+</code_point>
+<code_point value="7730">
+<fold>7731</fold>
+</code_point>
+<code_point value="7732">
+<fold>7733</fold>
+</code_point>
+<code_point value="7734">
+<fold>7735</fold>
+</code_point>
+<code_point value="7736">
+<fold>7737</fold>
+</code_point>
+<code_point value="7738">
+<fold>7739</fold>
+</code_point>
+<code_point value="7740">
+<fold>7741</fold>
+</code_point>
+<code_point value="7742">
+<fold>7743</fold>
+</code_point>
+<code_point value="7744">
+<fold>7745</fold>
+</code_point>
+<code_point value="7746">
+<fold>7747</fold>
+</code_point>
+<code_point value="7748">
+<fold>7749</fold>
+</code_point>
+<code_point value="7750">
+<fold>7751</fold>
+</code_point>
+<code_point value="7752">
+<fold>7753</fold>
+</code_point>
+<code_point value="7754">
+<fold>7755</fold>
+</code_point>
+<code_point value="7756">
+<fold>7757</fold>
+</code_point>
+<code_point value="7758">
+<fold>7759</fold>
+</code_point>
+<code_point value="7760">
+<fold>7761</fold>
+</code_point>
+<code_point value="7762">
+<fold>7763</fold>
+</code_point>
+<code_point value="7764">
+<fold>7765</fold>
+</code_point>
+<code_point value="7766">
+<fold>7767</fold>
+</code_point>
+<code_point value="7768">
+<fold>7769</fold>
+</code_point>
+<code_point value="7770">
+<fold>7771</fold>
+</code_point>
+<code_point value="7772">
+<fold>7773</fold>
+</code_point>
+<code_point value="7774">
+<fold>7775</fold>
+</code_point>
+<code_point value="7776">
+<fold>7777</fold>
+</code_point>
+<code_point value="7778">
+<fold>7779</fold>
+</code_point>
+<code_point value="7780">
+<fold>7781</fold>
+</code_point>
+<code_point value="7782">
+<fold>7783</fold>
+</code_point>
+<code_point value="7784">
+<fold>7785</fold>
+</code_point>
+<code_point value="7786">
+<fold>7787</fold>
+</code_point>
+<code_point value="7788">
+<fold>7789</fold>
+</code_point>
+<code_point value="7790">
+<fold>7791</fold>
+</code_point>
+<code_point value="7792">
+<fold>7793</fold>
+</code_point>
+<code_point value="7794">
+<fold>7795</fold>
+</code_point>
+<code_point value="7796">
+<fold>7797</fold>
+</code_point>
+<code_point value="7798">
+<fold>7799</fold>
+</code_point>
+<code_point value="7800">
+<fold>7801</fold>
+</code_point>
+<code_point value="7802">
+<fold>7803</fold>
+</code_point>
+<code_point value="7804">
+<fold>7805</fold>
+</code_point>
+<code_point value="7806">
+<fold>7807</fold>
+</code_point>
+<code_point value="7808">
+<fold>7809</fold>
+</code_point>
+<code_point value="7810">
+<fold>7811</fold>
+</code_point>
+<code_point value="7812">
+<fold>7813</fold>
+</code_point>
+<code_point value="7814">
+<fold>7815</fold>
+</code_point>
+<code_point value="7816">
+<fold>7817</fold>
+</code_point>
+<code_point value="7818">
+<fold>7819</fold>
+</code_point>
+<code_point value="7820">
+<fold>7821</fold>
+</code_point>
+<code_point value="7822">
+<fold>7823</fold>
+</code_point>
+<code_point value="7824">
+<fold>7825</fold>
+</code_point>
+<code_point value="7826">
+<fold>7827</fold>
+</code_point>
+<code_point value="7828">
+<fold>7829</fold>
+</code_point>
+<code_point value="7830">
+<fold>104 817</fold>
+</code_point>
+<code_point value="7831">
+<fold>116 776</fold>
+</code_point>
+<code_point value="7832">
+<fold>119 778</fold>
+</code_point>
+<code_point value="7833">
+<fold>121 778</fold>
+</code_point>
+<code_point value="7834">
+<fold>97 702</fold>
+</code_point>
+<code_point value="7835">
+<fold>7777</fold>
+</code_point>
+<code_point value="7838">
+<fold>115 115</fold>
+</code_point>
+<code_point value="7840">
+<fold>7841</fold>
+</code_point>
+<code_point value="7842">
+<fold>7843</fold>
+</code_point>
+<code_point value="7844">
+<fold>7845</fold>
+</code_point>
+<code_point value="7846">
+<fold>7847</fold>
+</code_point>
+<code_point value="7848">
+<fold>7849</fold>
+</code_point>
+<code_point value="7850">
+<fold>7851</fold>
+</code_point>
+<code_point value="7852">
+<fold>7853</fold>
+</code_point>
+<code_point value="7854">
+<fold>7855</fold>
+</code_point>
+<code_point value="7856">
+<fold>7857</fold>
+</code_point>
+<code_point value="7858">
+<fold>7859</fold>
+</code_point>
+<code_point value="7860">
+<fold>7861</fold>
+</code_point>
+<code_point value="7862">
+<fold>7863</fold>
+</code_point>
+<code_point value="7864">
+<fold>7865</fold>
+</code_point>
+<code_point value="7866">
+<fold>7867</fold>
+</code_point>
+<code_point value="7868">
+<fold>7869</fold>
+</code_point>
+<code_point value="7870">
+<fold>7871</fold>
+</code_point>
+<code_point value="7872">
+<fold>7873</fold>
+</code_point>
+<code_point value="7874">
+<fold>7875</fold>
+</code_point>
+<code_point value="7876">
+<fold>7877</fold>
+</code_point>
+<code_point value="7878">
+<fold>7879</fold>
+</code_point>
+<code_point value="7880">
+<fold>7881</fold>
+</code_point>
+<code_point value="7882">
+<fold>7883</fold>
+</code_point>
+<code_point value="7884">
+<fold>7885</fold>
+</code_point>
+<code_point value="7886">
+<fold>7887</fold>
+</code_point>
+<code_point value="7888">
+<fold>7889</fold>
+</code_point>
+<code_point value="7890">
+<fold>7891</fold>
+</code_point>
+<code_point value="7892">
+<fold>7893</fold>
+</code_point>
+<code_point value="7894">
+<fold>7895</fold>
+</code_point>
+<code_point value="7896">
+<fold>7897</fold>
+</code_point>
+<code_point value="7898">
+<fold>7899</fold>
+</code_point>
+<code_point value="7900">
+<fold>7901</fold>
+</code_point>
+<code_point value="7902">
+<fold>7903</fold>
+</code_point>
+<code_point value="7904">
+<fold>7905</fold>
+</code_point>
+<code_point value="7906">
+<fold>7907</fold>
+</code_point>
+<code_point value="7908">
+<fold>7909</fold>
+</code_point>
+<code_point value="7910">
+<fold>7911</fold>
+</code_point>
+<code_point value="7912">
+<fold>7913</fold>
+</code_point>
+<code_point value="7914">
+<fold>7915</fold>
+</code_point>
+<code_point value="7916">
+<fold>7917</fold>
+</code_point>
+<code_point value="7918">
+<fold>7919</fold>
+</code_point>
+<code_point value="7920">
+<fold>7921</fold>
+</code_point>
+<code_point value="7922">
+<fold>7923</fold>
+</code_point>
+<code_point value="7924">
+<fold>7925</fold>
+</code_point>
+<code_point value="7926">
+<fold>7927</fold>
+</code_point>
+<code_point value="7928">
+<fold>7929</fold>
+</code_point>
+<code_point value="7930">
+<fold>7931</fold>
+</code_point>
+<code_point value="7932">
+<fold>7933</fold>
+</code_point>
+<code_point value="7934">
+<fold>7935</fold>
+</code_point>
+<code_point value="7944">
+<fold>7936</fold>
+</code_point>
+<code_point value="7945">
+<fold>7937</fold>
+</code_point>
+<code_point value="7946">
+<fold>7938</fold>
+</code_point>
+<code_point value="7947">
+<fold>7939</fold>
+</code_point>
+<code_point value="7948">
+<fold>7940</fold>
+</code_point>
+<code_point value="7949">
+<fold>7941</fold>
+</code_point>
+<code_point value="7950">
+<fold>7942</fold>
+</code_point>
+<code_point value="7951">
+<fold>7943</fold>
+</code_point>
+<code_point value="7960">
+<fold>7952</fold>
+</code_point>
+<code_point value="7961">
+<fold>7953</fold>
+</code_point>
+<code_point value="7962">
+<fold>7954</fold>
+</code_point>
+<code_point value="7963">
+<fold>7955</fold>
+</code_point>
+<code_point value="7964">
+<fold>7956</fold>
+</code_point>
+<code_point value="7965">
+<fold>7957</fold>
+</code_point>
+<code_point value="7976">
+<fold>7968</fold>
+</code_point>
+<code_point value="7977">
+<fold>7969</fold>
+</code_point>
+<code_point value="7978">
+<fold>7970</fold>
+</code_point>
+<code_point value="7979">
+<fold>7971</fold>
+</code_point>
+<code_point value="7980">
+<fold>7972</fold>
+</code_point>
+<code_point value="7981">
+<fold>7973</fold>
+</code_point>
+<code_point value="7982">
+<fold>7974</fold>
+</code_point>
+<code_point value="7983">
+<fold>7975</fold>
+</code_point>
+<code_point value="7992">
+<fold>7984</fold>
+</code_point>
+<code_point value="7993">
+<fold>7985</fold>
+</code_point>
+<code_point value="7994">
+<fold>7986</fold>
+</code_point>
+<code_point value="7995">
+<fold>7987</fold>
+</code_point>
+<code_point value="7996">
+<fold>7988</fold>
+</code_point>
+<code_point value="7997">
+<fold>7989</fold>
+</code_point>
+<code_point value="7998">
+<fold>7990</fold>
+</code_point>
+<code_point value="7999">
+<fold>7991</fold>
+</code_point>
+<code_point value="8008">
+<fold>8000</fold>
+</code_point>
+<code_point value="8009">
+<fold>8001</fold>
+</code_point>
+<code_point value="8010">
+<fold>8002</fold>
+</code_point>
+<code_point value="8011">
+<fold>8003</fold>
+</code_point>
+<code_point value="8012">
+<fold>8004</fold>
+</code_point>
+<code_point value="8013">
+<fold>8005</fold>
+</code_point>
+<code_point value="8016">
+<fold>965 787</fold>
+</code_point>
+<code_point value="8018">
+<fold>965 787 768</fold>
+</code_point>
+<code_point value="8020">
+<fold>965 787 769</fold>
+</code_point>
+<code_point value="8022">
+<fold>965 787 834</fold>
+</code_point>
+<code_point value="8025">
+<fold>8017</fold>
+</code_point>
+<code_point value="8027">
+<fold>8019</fold>
+</code_point>
+<code_point value="8029">
+<fold>8021</fold>
+</code_point>
+<code_point value="8031">
+<fold>8023</fold>
+</code_point>
+<code_point value="8040">
+<fold>8032</fold>
+</code_point>
+<code_point value="8041">
+<fold>8033</fold>
+</code_point>
+<code_point value="8042">
+<fold>8034</fold>
+</code_point>
+<code_point value="8043">
+<fold>8035</fold>
+</code_point>
+<code_point value="8044">
+<fold>8036</fold>
+</code_point>
+<code_point value="8045">
+<fold>8037</fold>
+</code_point>
+<code_point value="8046">
+<fold>8038</fold>
+</code_point>
+<code_point value="8047">
+<fold>8039</fold>
+</code_point>
+<code_point value="8064">
+<fold>7936 953</fold>
+</code_point>
+<code_point value="8065">
+<fold>7937 953</fold>
+</code_point>
+<code_point value="8066">
+<fold>7938 953</fold>
+</code_point>
+<code_point value="8067">
+<fold>7939 953</fold>
+</code_point>
+<code_point value="8068">
+<fold>7940 953</fold>
+</code_point>
+<code_point value="8069">
+<fold>7941 953</fold>
+</code_point>
+<code_point value="8070">
+<fold>7942 953</fold>
+</code_point>
+<code_point value="8071">
+<fold>7943 953</fold>
+</code_point>
+<code_point value="8072">
+<fold>7936 953</fold>
+</code_point>
+<code_point value="8073">
+<fold>7937 953</fold>
+</code_point>
+<code_point value="8074">
+<fold>7938 953</fold>
+</code_point>
+<code_point value="8075">
+<fold>7939 953</fold>
+</code_point>
+<code_point value="8076">
+<fold>7940 953</fold>
+</code_point>
+<code_point value="8077">
+<fold>7941 953</fold>
+</code_point>
+<code_point value="8078">
+<fold>7942 953</fold>
+</code_point>
+<code_point value="8079">
+<fold>7943 953</fold>
+</code_point>
+<code_point value="8080">
+<fold>7968 953</fold>
+</code_point>
+<code_point value="8081">
+<fold>7969 953</fold>
+</code_point>
+<code_point value="8082">
+<fold>7970 953</fold>
+</code_point>
+<code_point value="8083">
+<fold>7971 953</fold>
+</code_point>
+<code_point value="8084">
+<fold>7972 953</fold>
+</code_point>
+<code_point value="8085">
+<fold>7973 953</fold>
+</code_point>
+<code_point value="8086">
+<fold>7974 953</fold>
+</code_point>
+<code_point value="8087">
+<fold>7975 953</fold>
+</code_point>
+<code_point value="8088">
+<fold>7968 953</fold>
+</code_point>
+<code_point value="8089">
+<fold>7969 953</fold>
+</code_point>
+<code_point value="8090">
+<fold>7970 953</fold>
+</code_point>
+<code_point value="8091">
+<fold>7971 953</fold>
+</code_point>
+<code_point value="8092">
+<fold>7972 953</fold>
+</code_point>
+<code_point value="8093">
+<fold>7973 953</fold>
+</code_point>
+<code_point value="8094">
+<fold>7974 953</fold>
+</code_point>
+<code_point value="8095">
+<fold>7975 953</fold>
+</code_point>
+<code_point value="8096">
+<fold>8032 953</fold>
+</code_point>
+<code_point value="8097">
+<fold>8033 953</fold>
+</code_point>
+<code_point value="8098">
+<fold>8034 953</fold>
+</code_point>
+<code_point value="8099">
+<fold>8035 953</fold>
+</code_point>
+<code_point value="8100">
+<fold>8036 953</fold>
+</code_point>
+<code_point value="8101">
+<fold>8037 953</fold>
+</code_point>
+<code_point value="8102">
+<fold>8038 953</fold>
+</code_point>
+<code_point value="8103">
+<fold>8039 953</fold>
+</code_point>
+<code_point value="8104">
+<fold>8032 953</fold>
+</code_point>
+<code_point value="8105">
+<fold>8033 953</fold>
+</code_point>
+<code_point value="8106">
+<fold>8034 953</fold>
+</code_point>
+<code_point value="8107">
+<fold>8035 953</fold>
+</code_point>
+<code_point value="8108">
+<fold>8036 953</fold>
+</code_point>
+<code_point value="8109">
+<fold>8037 953</fold>
+</code_point>
+<code_point value="8110">
+<fold>8038 953</fold>
+</code_point>
+<code_point value="8111">
+<fold>8039 953</fold>
+</code_point>
+<code_point value="8114">
+<fold>8048 953</fold>
+</code_point>
+<code_point value="8115">
+<fold>945 953</fold>
+</code_point>
+<code_point value="8116">
+<fold>940 953</fold>
+</code_point>
+<code_point value="8118">
+<fold>945 834</fold>
+</code_point>
+<code_point value="8119">
+<fold>945 834 953</fold>
+</code_point>
+<code_point value="8120">
+<fold>8112</fold>
+</code_point>
+<code_point value="8121">
+<fold>8113</fold>
+</code_point>
+<code_point value="8122">
+<fold>8048</fold>
+</code_point>
+<code_point value="8123">
+<fold>8049</fold>
+</code_point>
+<code_point value="8124">
+<fold>945 953</fold>
+</code_point>
+<code_point value="8126">
+<fold>953</fold>
+</code_point>
+<code_point value="8130">
+<fold>8052 953</fold>
+</code_point>
+<code_point value="8131">
+<fold>951 953</fold>
+</code_point>
+<code_point value="8132">
+<fold>942 953</fold>
+</code_point>
+<code_point value="8134">
+<fold>951 834</fold>
+</code_point>
+<code_point value="8135">
+<fold>951 834 953</fold>
+</code_point>
+<code_point value="8136">
+<fold>8050</fold>
+</code_point>
+<code_point value="8137">
+<fold>8051</fold>
+</code_point>
+<code_point value="8138">
+<fold>8052</fold>
+</code_point>
+<code_point value="8139">
+<fold>8053</fold>
+</code_point>
+<code_point value="8140">
+<fold>951 953</fold>
+</code_point>
+<code_point value="8146">
+<fold>953 776 768</fold>
+</code_point>
+<code_point value="8147">
+<fold>953 776 769</fold>
+</code_point>
+<code_point value="8150">
+<fold>953 834</fold>
+</code_point>
+<code_point value="8151">
+<fold>953 776 834</fold>
+</code_point>
+<code_point value="8152">
+<fold>8144</fold>
+</code_point>
+<code_point value="8153">
+<fold>8145</fold>
+</code_point>
+<code_point value="8154">
+<fold>8054</fold>
+</code_point>
+<code_point value="8155">
+<fold>8055</fold>
+</code_point>
+<code_point value="8162">
+<fold>965 776 768</fold>
+</code_point>
+<code_point value="8163">
+<fold>965 776 769</fold>
+</code_point>
+<code_point value="8164">
+<fold>961 787</fold>
+</code_point>
+<code_point value="8166">
+<fold>965 834</fold>
+</code_point>
+<code_point value="8167">
+<fold>965 776 834</fold>
+</code_point>
+<code_point value="8168">
+<fold>8160</fold>
+</code_point>
+<code_point value="8169">
+<fold>8161</fold>
+</code_point>
+<code_point value="8170">
+<fold>8058</fold>
+</code_point>
+<code_point value="8171">
+<fold>8059</fold>
+</code_point>
+<code_point value="8172">
+<fold>8165</fold>
+</code_point>
+<code_point value="8178">
+<fold>8060 953</fold>
+</code_point>
+<code_point value="8179">
+<fold>969 953</fold>
+</code_point>
+<code_point value="8180">
+<fold>974 953</fold>
+</code_point>
+<code_point value="8182">
+<fold>969 834</fold>
+</code_point>
+<code_point value="8183">
+<fold>969 834 953</fold>
+</code_point>
+<code_point value="8184">
+<fold>8056</fold>
+</code_point>
+<code_point value="8185">
+<fold>8057</fold>
+</code_point>
+<code_point value="8186">
+<fold>8060</fold>
+</code_point>
+<code_point value="8187">
+<fold>8061</fold>
+</code_point>
+<code_point value="8188">
+<fold>969 953</fold>
+</code_point>
+<code_point value="8486">
+<fold>969</fold>
+</code_point>
+<code_point value="8490">
+<fold>107</fold>
+</code_point>
+<code_point value="8491">
+<fold>229</fold>
+</code_point>
+<code_point value="8498">
+<fold>8526</fold>
+</code_point>
+<code_point value="8544">
+<fold>8560</fold>
+</code_point>
+<code_point value="8545">
+<fold>8561</fold>
+</code_point>
+<code_point value="8546">
+<fold>8562</fold>
+</code_point>
+<code_point value="8547">
+<fold>8563</fold>
+</code_point>
+<code_point value="8548">
+<fold>8564</fold>
+</code_point>
+<code_point value="8549">
+<fold>8565</fold>
+</code_point>
+<code_point value="8550">
+<fold>8566</fold>
+</code_point>
+<code_point value="8551">
+<fold>8567</fold>
+</code_point>
+<code_point value="8552">
+<fold>8568</fold>
+</code_point>
+<code_point value="8553">
+<fold>8569</fold>
+</code_point>
+<code_point value="8554">
+<fold>8570</fold>
+</code_point>
+<code_point value="8555">
+<fold>8571</fold>
+</code_point>
+<code_point value="8556">
+<fold>8572</fold>
+</code_point>
+<code_point value="8557">
+<fold>8573</fold>
+</code_point>
+<code_point value="8558">
+<fold>8574</fold>
+</code_point>
+<code_point value="8559">
+<fold>8575</fold>
+</code_point>
+<code_point value="8579">
+<fold>8580</fold>
+</code_point>
+<code_point value="9398">
+<fold>9424</fold>
+</code_point>
+<code_point value="9399">
+<fold>9425</fold>
+</code_point>
+<code_point value="9400">
+<fold>9426</fold>
+</code_point>
+<code_point value="9401">
+<fold>9427</fold>
+</code_point>
+<code_point value="9402">
+<fold>9428</fold>
+</code_point>
+<code_point value="9403">
+<fold>9429</fold>
+</code_point>
+<code_point value="9404">
+<fold>9430</fold>
+</code_point>
+<code_point value="9405">
+<fold>9431</fold>
+</code_point>
+<code_point value="9406">
+<fold>9432</fold>
+</code_point>
+<code_point value="9407">
+<fold>9433</fold>
+</code_point>
+<code_point value="9408">
+<fold>9434</fold>
+</code_point>
+<code_point value="9409">
+<fold>9435</fold>
+</code_point>
+<code_point value="9410">
+<fold>9436</fold>
+</code_point>
+<code_point value="9411">
+<fold>9437</fold>
+</code_point>
+<code_point value="9412">
+<fold>9438</fold>
+</code_point>
+<code_point value="9413">
+<fold>9439</fold>
+</code_point>
+<code_point value="9414">
+<fold>9440</fold>
+</code_point>
+<code_point value="9415">
+<fold>9441</fold>
+</code_point>
+<code_point value="9416">
+<fold>9442</fold>
+</code_point>
+<code_point value="9417">
+<fold>9443</fold>
+</code_point>
+<code_point value="9418">
+<fold>9444</fold>
+</code_point>
+<code_point value="9419">
+<fold>9445</fold>
+</code_point>
+<code_point value="9420">
+<fold>9446</fold>
+</code_point>
+<code_point value="9421">
+<fold>9447</fold>
+</code_point>
+<code_point value="9422">
+<fold>9448</fold>
+</code_point>
+<code_point value="9423">
+<fold>9449</fold>
+</code_point>
+<code_point value="11264">
+<fold>11312</fold>
+</code_point>
+<code_point value="11265">
+<fold>11313</fold>
+</code_point>
+<code_point value="11266">
+<fold>11314</fold>
+</code_point>
+<code_point value="11267">
+<fold>11315</fold>
+</code_point>
+<code_point value="11268">
+<fold>11316</fold>
+</code_point>
+<code_point value="11269">
+<fold>11317</fold>
+</code_point>
+<code_point value="11270">
+<fold>11318</fold>
+</code_point>
+<code_point value="11271">
+<fold>11319</fold>
+</code_point>
+<code_point value="11272">
+<fold>11320</fold>
+</code_point>
+<code_point value="11273">
+<fold>11321</fold>
+</code_point>
+<code_point value="11274">
+<fold>11322</fold>
+</code_point>
+<code_point value="11275">
+<fold>11323</fold>
+</code_point>
+<code_point value="11276">
+<fold>11324</fold>
+</code_point>
+<code_point value="11277">
+<fold>11325</fold>
+</code_point>
+<code_point value="11278">
+<fold>11326</fold>
+</code_point>
+<code_point value="11279">
+<fold>11327</fold>
+</code_point>
+<code_point value="11280">
+<fold>11328</fold>
+</code_point>
+<code_point value="11281">
+<fold>11329</fold>
+</code_point>
+<code_point value="11282">
+<fold>11330</fold>
+</code_point>
+<code_point value="11283">
+<fold>11331</fold>
+</code_point>
+<code_point value="11284">
+<fold>11332</fold>
+</code_point>
+<code_point value="11285">
+<fold>11333</fold>
+</code_point>
+<code_point value="11286">
+<fold>11334</fold>
+</code_point>
+<code_point value="11287">
+<fold>11335</fold>
+</code_point>
+<code_point value="11288">
+<fold>11336</fold>
+</code_point>
+<code_point value="11289">
+<fold>11337</fold>
+</code_point>
+<code_point value="11290">
+<fold>11338</fold>
+</code_point>
+<code_point value="11291">
+<fold>11339</fold>
+</code_point>
+<code_point value="11292">
+<fold>11340</fold>
+</code_point>
+<code_point value="11293">
+<fold>11341</fold>
+</code_point>
+<code_point value="11294">
+<fold>11342</fold>
+</code_point>
+<code_point value="11295">
+<fold>11343</fold>
+</code_point>
+<code_point value="11296">
+<fold>11344</fold>
+</code_point>
+<code_point value="11297">
+<fold>11345</fold>
+</code_point>
+<code_point value="11298">
+<fold>11346</fold>
+</code_point>
+<code_point value="11299">
+<fold>11347</fold>
+</code_point>
+<code_point value="11300">
+<fold>11348</fold>
+</code_point>
+<code_point value="11301">
+<fold>11349</fold>
+</code_point>
+<code_point value="11302">
+<fold>11350</fold>
+</code_point>
+<code_point value="11303">
+<fold>11351</fold>
+</code_point>
+<code_point value="11304">
+<fold>11352</fold>
+</code_point>
+<code_point value="11305">
+<fold>11353</fold>
+</code_point>
+<code_point value="11306">
+<fold>11354</fold>
+</code_point>
+<code_point value="11307">
+<fold>11355</fold>
+</code_point>
+<code_point value="11308">
+<fold>11356</fold>
+</code_point>
+<code_point value="11309">
+<fold>11357</fold>
+</code_point>
+<code_point value="11310">
+<fold>11358</fold>
+</code_point>
+<code_point value="11360">
+<fold>11361</fold>
+</code_point>
+<code_point value="11362">
+<fold>619</fold>
+</code_point>
+<code_point value="11363">
+<fold>7549</fold>
+</code_point>
+<code_point value="11364">
+<fold>637</fold>
+</code_point>
+<code_point value="11367">
+<fold>11368</fold>
+</code_point>
+<code_point value="11369">
+<fold>11370</fold>
+</code_point>
+<code_point value="11371">
+<fold>11372</fold>
+</code_point>
+<code_point value="11373">
+<fold>593</fold>
+</code_point>
+<code_point value="11374">
+<fold>625</fold>
+</code_point>
+<code_point value="11375">
+<fold>592</fold>
+</code_point>
+<code_point value="11378">
+<fold>11379</fold>
+</code_point>
+<code_point value="11381">
+<fold>11382</fold>
+</code_point>
+<code_point value="11392">
+<fold>11393</fold>
+</code_point>
+<code_point value="11394">
+<fold>11395</fold>
+</code_point>
+<code_point value="11396">
+<fold>11397</fold>
+</code_point>
+<code_point value="11398">
+<fold>11399</fold>
+</code_point>
+<code_point value="11400">
+<fold>11401</fold>
+</code_point>
+<code_point value="11402">
+<fold>11403</fold>
+</code_point>
+<code_point value="11404">
+<fold>11405</fold>
+</code_point>
+<code_point value="11406">
+<fold>11407</fold>
+</code_point>
+<code_point value="11408">
+<fold>11409</fold>
+</code_point>
+<code_point value="11410">
+<fold>11411</fold>
+</code_point>
+<code_point value="11412">
+<fold>11413</fold>
+</code_point>
+<code_point value="11414">
+<fold>11415</fold>
+</code_point>
+<code_point value="11416">
+<fold>11417</fold>
+</code_point>
+<code_point value="11418">
+<fold>11419</fold>
+</code_point>
+<code_point value="11420">
+<fold>11421</fold>
+</code_point>
+<code_point value="11422">
+<fold>11423</fold>
+</code_point>
+<code_point value="11424">
+<fold>11425</fold>
+</code_point>
+<code_point value="11426">
+<fold>11427</fold>
+</code_point>
+<code_point value="11428">
+<fold>11429</fold>
+</code_point>
+<code_point value="11430">
+<fold>11431</fold>
+</code_point>
+<code_point value="11432">
+<fold>11433</fold>
+</code_point>
+<code_point value="11434">
+<fold>11435</fold>
+</code_point>
+<code_point value="11436">
+<fold>11437</fold>
+</code_point>
+<code_point value="11438">
+<fold>11439</fold>
+</code_point>
+<code_point value="11440">
+<fold>11441</fold>
+</code_point>
+<code_point value="11442">
+<fold>11443</fold>
+</code_point>
+<code_point value="11444">
+<fold>11445</fold>
+</code_point>
+<code_point value="11446">
+<fold>11447</fold>
+</code_point>
+<code_point value="11448">
+<fold>11449</fold>
+</code_point>
+<code_point value="11450">
+<fold>11451</fold>
+</code_point>
+<code_point value="11452">
+<fold>11453</fold>
+</code_point>
+<code_point value="11454">
+<fold>11455</fold>
+</code_point>
+<code_point value="11456">
+<fold>11457</fold>
+</code_point>
+<code_point value="11458">
+<fold>11459</fold>
+</code_point>
+<code_point value="11460">
+<fold>11461</fold>
+</code_point>
+<code_point value="11462">
+<fold>11463</fold>
+</code_point>
+<code_point value="11464">
+<fold>11465</fold>
+</code_point>
+<code_point value="11466">
+<fold>11467</fold>
+</code_point>
+<code_point value="11468">
+<fold>11469</fold>
+</code_point>
+<code_point value="11470">
+<fold>11471</fold>
+</code_point>
+<code_point value="11472">
+<fold>11473</fold>
+</code_point>
+<code_point value="11474">
+<fold>11475</fold>
+</code_point>
+<code_point value="11476">
+<fold>11477</fold>
+</code_point>
+<code_point value="11478">
+<fold>11479</fold>
+</code_point>
+<code_point value="11480">
+<fold>11481</fold>
+</code_point>
+<code_point value="11482">
+<fold>11483</fold>
+</code_point>
+<code_point value="11484">
+<fold>11485</fold>
+</code_point>
+<code_point value="11486">
+<fold>11487</fold>
+</code_point>
+<code_point value="11488">
+<fold>11489</fold>
+</code_point>
+<code_point value="11490">
+<fold>11491</fold>
+</code_point>
+<code_point value="42560">
+<fold>42561</fold>
+</code_point>
+<code_point value="42562">
+<fold>42563</fold>
+</code_point>
+<code_point value="42564">
+<fold>42565</fold>
+</code_point>
+<code_point value="42566">
+<fold>42567</fold>
+</code_point>
+<code_point value="42568">
+<fold>42569</fold>
+</code_point>
+<code_point value="42570">
+<fold>42571</fold>
+</code_point>
+<code_point value="42572">
+<fold>42573</fold>
+</code_point>
+<code_point value="42574">
+<fold>42575</fold>
+</code_point>
+<code_point value="42576">
+<fold>42577</fold>
+</code_point>
+<code_point value="42578">
+<fold>42579</fold>
+</code_point>
+<code_point value="42580">
+<fold>42581</fold>
+</code_point>
+<code_point value="42582">
+<fold>42583</fold>
+</code_point>
+<code_point value="42584">
+<fold>42585</fold>
+</code_point>
+<code_point value="42586">
+<fold>42587</fold>
+</code_point>
+<code_point value="42588">
+<fold>42589</fold>
+</code_point>
+<code_point value="42590">
+<fold>42591</fold>
+</code_point>
+<code_point value="42594">
+<fold>42595</fold>
+</code_point>
+<code_point value="42596">
+<fold>42597</fold>
+</code_point>
+<code_point value="42598">
+<fold>42599</fold>
+</code_point>
+<code_point value="42600">
+<fold>42601</fold>
+</code_point>
+<code_point value="42602">
+<fold>42603</fold>
+</code_point>
+<code_point value="42604">
+<fold>42605</fold>
+</code_point>
+<code_point value="42624">
+<fold>42625</fold>
+</code_point>
+<code_point value="42626">
+<fold>42627</fold>
+</code_point>
+<code_point value="42628">
+<fold>42629</fold>
+</code_point>
+<code_point value="42630">
+<fold>42631</fold>
+</code_point>
+<code_point value="42632">
+<fold>42633</fold>
+</code_point>
+<code_point value="42634">
+<fold>42635</fold>
+</code_point>
+<code_point value="42636">
+<fold>42637</fold>
+</code_point>
+<code_point value="42638">
+<fold>42639</fold>
+</code_point>
+<code_point value="42640">
+<fold>42641</fold>
+</code_point>
+<code_point value="42642">
+<fold>42643</fold>
+</code_point>
+<code_point value="42644">
+<fold>42645</fold>
+</code_point>
+<code_point value="42646">
+<fold>42647</fold>
+</code_point>
+<code_point value="42786">
+<fold>42787</fold>
+</code_point>
+<code_point value="42788">
+<fold>42789</fold>
+</code_point>
+<code_point value="42790">
+<fold>42791</fold>
+</code_point>
+<code_point value="42792">
+<fold>42793</fold>
+</code_point>
+<code_point value="42794">
+<fold>42795</fold>
+</code_point>
+<code_point value="42796">
+<fold>42797</fold>
+</code_point>
+<code_point value="42798">
+<fold>42799</fold>
+</code_point>
+<code_point value="42802">
+<fold>42803</fold>
+</code_point>
+<code_point value="42804">
+<fold>42805</fold>
+</code_point>
+<code_point value="42806">
+<fold>42807</fold>
+</code_point>
+<code_point value="42808">
+<fold>42809</fold>
+</code_point>
+<code_point value="42810">
+<fold>42811</fold>
+</code_point>
+<code_point value="42812">
+<fold>42813</fold>
+</code_point>
+<code_point value="42814">
+<fold>42815</fold>
+</code_point>
+<code_point value="42816">
+<fold>42817</fold>
+</code_point>
+<code_point value="42818">
+<fold>42819</fold>
+</code_point>
+<code_point value="42820">
+<fold>42821</fold>
+</code_point>
+<code_point value="42822">
+<fold>42823</fold>
+</code_point>
+<code_point value="42824">
+<fold>42825</fold>
+</code_point>
+<code_point value="42826">
+<fold>42827</fold>
+</code_point>
+<code_point value="42828">
+<fold>42829</fold>
+</code_point>
+<code_point value="42830">
+<fold>42831</fold>
+</code_point>
+<code_point value="42832">
+<fold>42833</fold>
+</code_point>
+<code_point value="42834">
+<fold>42835</fold>
+</code_point>
+<code_point value="42836">
+<fold>42837</fold>
+</code_point>
+<code_point value="42838">
+<fold>42839</fold>
+</code_point>
+<code_point value="42840">
+<fold>42841</fold>
+</code_point>
+<code_point value="42842">
+<fold>42843</fold>
+</code_point>
+<code_point value="42844">
+<fold>42845</fold>
+</code_point>
+<code_point value="42846">
+<fold>42847</fold>
+</code_point>
+<code_point value="42848">
+<fold>42849</fold>
+</code_point>
+<code_point value="42850">
+<fold>42851</fold>
+</code_point>
+<code_point value="42852">
+<fold>42853</fold>
+</code_point>
+<code_point value="42854">
+<fold>42855</fold>
+</code_point>
+<code_point value="42856">
+<fold>42857</fold>
+</code_point>
+<code_point value="42858">
+<fold>42859</fold>
+</code_point>
+<code_point value="42860">
+<fold>42861</fold>
+</code_point>
+<code_point value="42862">
+<fold>42863</fold>
+</code_point>
+<code_point value="42873">
+<fold>42874</fold>
+</code_point>
+<code_point value="42875">
+<fold>42876</fold>
+</code_point>
+<code_point value="42877">
+<fold>7545</fold>
+</code_point>
+<code_point value="42878">
+<fold>42879</fold>
+</code_point>
+<code_point value="42880">
+<fold>42881</fold>
+</code_point>
+<code_point value="42882">
+<fold>42883</fold>
+</code_point>
+<code_point value="42884">
+<fold>42885</fold>
+</code_point>
+<code_point value="42886">
+<fold>42887</fold>
+</code_point>
+<code_point value="42891">
+<fold>42892</fold>
+</code_point>
+<code_point value="64256">
+<fold>102 102</fold>
+</code_point>
+<code_point value="64257">
+<fold>102 105</fold>
+</code_point>
+<code_point value="64258">
+<fold>102 108</fold>
+</code_point>
+<code_point value="64259">
+<fold>102 102 105</fold>
+</code_point>
+<code_point value="64260">
+<fold>102 102 108</fold>
+</code_point>
+<code_point value="64261">
+<fold>115 116</fold>
+</code_point>
+<code_point value="64262">
+<fold>115 116</fold>
+</code_point>
+<code_point value="64275">
+<fold>1396 1398</fold>
+</code_point>
+<code_point value="64276">
+<fold>1396 1381</fold>
+</code_point>
+<code_point value="64277">
+<fold>1396 1387</fold>
+</code_point>
+<code_point value="64278">
+<fold>1406 1398</fold>
+</code_point>
+<code_point value="64279">
+<fold>1396 1389</fold>
+</code_point>
+<code_point value="65313">
+<fold>65345</fold>
+</code_point>
+<code_point value="65314">
+<fold>65346</fold>
+</code_point>
+<code_point value="65315">
+<fold>65347</fold>
+</code_point>
+<code_point value="65316">
+<fold>65348</fold>
+</code_point>
+<code_point value="65317">
+<fold>65349</fold>
+</code_point>
+<code_point value="65318">
+<fold>65350</fold>
+</code_point>
+<code_point value="65319">
+<fold>65351</fold>
+</code_point>
+<code_point value="65320">
+<fold>65352</fold>
+</code_point>
+<code_point value="65321">
+<fold>65353</fold>
+</code_point>
+<code_point value="65322">
+<fold>65354</fold>
+</code_point>
+<code_point value="65323">
+<fold>65355</fold>
+</code_point>
+<code_point value="65324">
+<fold>65356</fold>
+</code_point>
+<code_point value="65325">
+<fold>65357</fold>
+</code_point>
+<code_point value="65326">
+<fold>65358</fold>
+</code_point>
+<code_point value="65327">
+<fold>65359</fold>
+</code_point>
+<code_point value="65328">
+<fold>65360</fold>
+</code_point>
+<code_point value="65329">
+<fold>65361</fold>
+</code_point>
+<code_point value="65330">
+<fold>65362</fold>
+</code_point>
+<code_point value="65331">
+<fold>65363</fold>
+</code_point>
+<code_point value="65332">
+<fold>65364</fold>
+</code_point>
+<code_point value="65333">
+<fold>65365</fold>
+</code_point>
+<code_point value="65334">
+<fold>65366</fold>
+</code_point>
+<code_point value="65335">
+<fold>65367</fold>
+</code_point>
+<code_point value="65336">
+<fold>65368</fold>
+</code_point>
+<code_point value="65337">
+<fold>65369</fold>
+</code_point>
+<code_point value="65338">
+<fold>65370</fold>
+</code_point>
+<code_point value="66560">
+<fold>66600</fold>
+</code_point>
+<code_point value="66561">
+<fold>66601</fold>
+</code_point>
+<code_point value="66562">
+<fold>66602</fold>
+</code_point>
+<code_point value="66563">
+<fold>66603</fold>
+</code_point>
+<code_point value="66564">
+<fold>66604</fold>
+</code_point>
+<code_point value="66565">
+<fold>66605</fold>
+</code_point>
+<code_point value="66566">
+<fold>66606</fold>
+</code_point>
+<code_point value="66567">
+<fold>66607</fold>
+</code_point>
+<code_point value="66568">
+<fold>66608</fold>
+</code_point>
+<code_point value="66569">
+<fold>66609</fold>
+</code_point>
+<code_point value="66570">
+<fold>66610</fold>
+</code_point>
+<code_point value="66571">
+<fold>66611</fold>
+</code_point>
+<code_point value="66572">
+<fold>66612</fold>
+</code_point>
+<code_point value="66573">
+<fold>66613</fold>
+</code_point>
+<code_point value="66574">
+<fold>66614</fold>
+</code_point>
+<code_point value="66575">
+<fold>66615</fold>
+</code_point>
+<code_point value="66576">
+<fold>66616</fold>
+</code_point>
+<code_point value="66577">
+<fold>66617</fold>
+</code_point>
+<code_point value="66578">
+<fold>66618</fold>
+</code_point>
+<code_point value="66579">
+<fold>66619</fold>
+</code_point>
+<code_point value="66580">
+<fold>66620</fold>
+</code_point>
+<code_point value="66581">
+<fold>66621</fold>
+</code_point>
+<code_point value="66582">
+<fold>66622</fold>
+</code_point>
+<code_point value="66583">
+<fold>66623</fold>
+</code_point>
+<code_point value="66584">
+<fold>66624</fold>
+</code_point>
+<code_point value="66585">
+<fold>66625</fold>
+</code_point>
+<code_point value="66586">
+<fold>66626</fold>
+</code_point>
+<code_point value="66587">
+<fold>66627</fold>
+</code_point>
+<code_point value="66588">
+<fold>66628</fold>
+</code_point>
+<code_point value="66589">
+<fold>66629</fold>
+</code_point>
+<code_point value="66590">
+<fold>66630</fold>
+</code_point>
+<code_point value="66591">
+<fold>66631</fold>
+</code_point>
+<code_point value="66592">
+<fold>66632</fold>
+</code_point>
+<code_point value="66593">
+<fold>66633</fold>
+</code_point>
+<code_point value="66594">
+<fold>66634</fold>
+</code_point>
+<code_point value="66595">
+<fold>66635</fold>
+</code_point>
+<code_point value="66596">
+<fold>66636</fold>
+</code_point>
+<code_point value="66597">
+<fold>66637</fold>
+</code_point>
+<code_point value="66598">
+<fold>66638</fold>
+</code_point>
+<code_point value="66599">
+<fold>66639</fold>
+</code_point>
+</result>

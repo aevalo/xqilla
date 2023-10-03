@@ -1,0 +1,737 @@
+
+/* A Bison parser, made by GNU Bison 2.4.1.  */
+
+/* Skeleton interface for Bison's Yacc-like parsers in C
+   
+      Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006
+   Free Software Foundation, Inc.
+   
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.  */
+
+/* As a special exception, you may create a larger work that contains
+   part or all of the Bison parser skeleton and distribute that work
+   under terms of your choice, so long as that work isn't itself a
+   parser generator using the skeleton or a modified version thereof
+   as a parser skeleton.  Alternatively, if you modify or redistribute
+   the parser skeleton itself, you may (at your option) remove this
+   special exception, which will cause the skeleton and the resulting
+   Bison output files to be licensed under the GNU General Public
+   License without this special exception.
+   
+   This special exception was added by the Free Software Foundation in
+   version 2.2 of Bison.  */
+
+
+/* Tokens.  */
+#ifndef YYTOKENTYPE
+# define YYTOKENTYPE
+   /* Put the tokens into the symbol table, so that GDB and other debuggers
+      know about them.  */
+   enum yytokentype {
+     MYEOF = 0,
+     _LANG_XPATH2_ = 258,
+     _LANG_XQUERY_ = 259,
+     _LANG_XSLT2_ = 260,
+     _LANG_FUNCDECL_ = 261,
+     _LANG_DELAYEDMODULE_ = 262,
+     _LANG_FUNCTION_SIGNATURE_ = 263,
+     _LANG_REWRITE_RULE_ = 264,
+     _LANG_REWRITE_PATTERN_ = 265,
+     _LANG_SEQUENCE_TYPE_ = 266,
+     _LANG_CARROT_ = 267,
+     _DOLLAR_ = 268,
+     _COLON_EQUALS_ = 269,
+     _ASTERISK_ = 270,
+     _BAR_ = 271,
+     _BANG_EQUALS_ = 272,
+     _LESS_THAN_EQUALS_ = 273,
+     _GREATER_THAN_ = 274,
+     _GREATER_THAN_EQUALS_ = 275,
+     _LESS_THAN_LESS_THAN_ = 276,
+     _GREATER_THAN_GREATER_THAN_ = 277,
+     _COLON_COLON_ = 278,
+     _AT_SIGN_ = 279,
+     _LSQUARE_ = 280,
+     _RSQUARE_ = 281,
+     _QUESTION_MARK_ = 282,
+     _LESS_THAN_OP_OR_TAG_ = 283,
+     _START_TAG_CLOSE_ = 284,
+     _END_TAG_CLOSE_ = 285,
+     _PI_START_ = 286,
+     _XML_COMMENT_START_ = 287,
+     _XML_COMMENT_END_ = 288,
+     _SLASH_SLASH_ = 289,
+     _END_TAG_OPEN_ = 290,
+     _PRAGMA_OPEN_ = 291,
+     _COMMA_ = 292,
+     _PLUS_ = 293,
+     _MINUS_ = 294,
+     _SLASH_ = 295,
+     _EQUALS_ = 296,
+     _DOT_ = 297,
+     _DOT_DOT_ = 298,
+     _LPAR_ = 299,
+     _RPAR_ = 300,
+     _EMPTY_TAG_CLOSE_ = 301,
+     _VALUE_INDICATOR_ = 302,
+     _OPEN_QUOT_ = 303,
+     _CLOSE_QUOT_ = 304,
+     _OPEN_APOS_ = 305,
+     _CLOSE_APOS_ = 306,
+     _LBRACE_ = 307,
+     _RBRACE_ = 308,
+     _SEMICOLON_ = 309,
+     _HASH_ = 310,
+     _PERCENT_ = 311,
+     _COLON_ = 312,
+     _TILDE_ = 313,
+     _MINUS_GREATER_THAN_ = 314,
+     _BAR_BAR_ = 315,
+     _BANG_ = 316,
+     _CARROT_ = 317,
+     _INTEGER_LITERAL_ = 318,
+     _DECIMAL_LITERAL_ = 319,
+     _DOUBLE_LITERAL_ = 320,
+     _ATTRIBUTE_ = 321,
+     _COMMENT_ = 322,
+     _DOCUMENT_NODE_ = 323,
+     _NAMESPACE_NODE_ = 324,
+     _NODE_ = 325,
+     _PROCESSING_INSTRUCTION_ = 326,
+     _SCHEMA_ATTRIBUTE_ = 327,
+     _SCHEMA_ELEMENT_ = 328,
+     _TEXT_ = 329,
+     _EMPTY_SEQUENCE_ = 330,
+     _BOUNDARY_SPACE_ = 331,
+     _FT_OPTION_ = 332,
+     _BASE_URI_ = 333,
+     _LAX_ = 334,
+     _STRICT_ = 335,
+     _IDIV_ = 336,
+     _CHILD_ = 337,
+     _DESCENDANT_ = 338,
+     _SELF_ = 339,
+     _DESCENDANT_OR_SELF_ = 340,
+     _FOLLOWING_SIBLING_ = 341,
+     _FOLLOWING_ = 342,
+     _PARENT_ = 343,
+     _ANCESTOR_ = 344,
+     _PRECEDING_SIBLING_ = 345,
+     _PRECEDING_ = 346,
+     _ANCESTOR_OR_SELF_ = 347,
+     _DOCUMENT_ = 348,
+     _NOT_ = 349,
+     _USING_ = 350,
+     _NO_ = 351,
+     _SENSITIVE_ = 352,
+     _INSENSITIVE_ = 353,
+     _DIACRITICS_ = 354,
+     _WITHOUT_ = 355,
+     _WITHOUT_C_ = 356,
+     _STEMMING_ = 357,
+     _THESAURUS_ = 358,
+     _STOP_ = 359,
+     _WILDCARDS_ = 360,
+     _ENTIRE_ = 361,
+     _CONTENT_ = 362,
+     _WORD_ = 363,
+     _TYPE_ = 364,
+     _START_ = 365,
+     _END_ = 366,
+     _MOST_ = 367,
+     _SKIP_ = 368,
+     _COPY_ = 369,
+     _VALUE_ = 370,
+     _WHITESPACE_ = 371,
+     _PI_CONTENT_ = 372,
+     _XML_COMMENT_CONTENT_ = 373,
+     _EQ_ = 374,
+     _NE_ = 375,
+     _LT_ = 376,
+     _LE_ = 377,
+     _GT_ = 378,
+     _GE_ = 379,
+     _AT_ = 380,
+     _QUOT_ATTR_CONTENT_ = 381,
+     _APOS_ATTR_CONTENT_ = 382,
+     _WHITESPACE_ELEMENT_CONTENT_ = 383,
+     _ELEMENT_CONTENT_ = 384,
+     _AT_LM_ = 385,
+     _ORDERED_ = 386,
+     _UNORDERED_ = 387,
+     _QNAME_ = 388,
+     _XMLNS_QNAME_ = 389,
+     _CONSTR_QNAME_ = 390,
+     _STRING_LITERAL_ = 391,
+     _VARIABLE_ = 392,
+     _NCNAME_COLON_STAR_ = 393,
+     _STAR_COLON_NCNAME_ = 394,
+     _PI_TARGET_ = 395,
+     _PRAGMA_CONTENT_ = 396,
+     _RETURN_ = 397,
+     _FOR_ = 398,
+     _IN_ = 399,
+     _LET_ = 400,
+     _WHERE_ = 401,
+     _COUNT_ = 402,
+     _BY_ = 403,
+     _ORDER_ = 404,
+     _STABLE_ = 405,
+     _ASCENDING_ = 406,
+     _DESCENDING_ = 407,
+     _EMPTY_ = 408,
+     _GREATEST_ = 409,
+     _LEAST_ = 410,
+     _COLLATION_ = 411,
+     _SOME_ = 412,
+     _EVERY_ = 413,
+     _SATISFIES_ = 414,
+     _TYPESWITCH_ = 415,
+     _CASE_ = 416,
+     _CASE_S_ = 417,
+     _AS_ = 418,
+     _IF_ = 419,
+     _THEN_ = 420,
+     _ELSE_ = 421,
+     _OR_ = 422,
+     _AND_ = 423,
+     _INSTANCE_ = 424,
+     _OF_ = 425,
+     _CASTABLE_ = 426,
+     _TO_ = 427,
+     _DIV_ = 428,
+     _MOD_ = 429,
+     _UNION_ = 430,
+     _INTERSECT_ = 431,
+     _EXCEPT_ = 432,
+     _VALIDATE_ = 433,
+     _CAST_ = 434,
+     _TREAT_ = 435,
+     _IS_ = 436,
+     _PRESERVE_ = 437,
+     _STRIP_ = 438,
+     _NAMESPACE_ = 439,
+     _ITEM_ = 440,
+     _EXTERNAL_ = 441,
+     _ENCODING_ = 442,
+     _NO_PRESERVE_ = 443,
+     _INHERIT_ = 444,
+     _NO_INHERIT_ = 445,
+     _DECLARE_ = 446,
+     _CONSTRUCTION_ = 447,
+     _ORDERING_ = 448,
+     _DEFAULT_ = 449,
+     _COPY_NAMESPACES_ = 450,
+     _OPTION_ = 451,
+     _XQUERY_ = 452,
+     _VERSION_ = 453,
+     _IMPORT_ = 454,
+     _SCHEMA_ = 455,
+     _MODULE_ = 456,
+     _ELEMENT_ = 457,
+     _FUNCTION_ = 458,
+     _FUNCTION_EXT_ = 459,
+     _SCORE_ = 460,
+     _CONTAINS_ = 461,
+     _WEIGHT_ = 462,
+     _WINDOW_ = 463,
+     _DISTANCE_ = 464,
+     _OCCURS_ = 465,
+     _TIMES_ = 466,
+     _SAME_ = 467,
+     _DIFFERENT_ = 468,
+     _LOWERCASE_ = 469,
+     _UPPERCASE_ = 470,
+     _RELATIONSHIP_ = 471,
+     _LEVELS_ = 472,
+     _LANGUAGE_ = 473,
+     _ANY_ = 474,
+     _ALL_ = 475,
+     _PHRASE_ = 476,
+     _EXACTLY_ = 477,
+     _FROM_ = 478,
+     _WORDS_ = 479,
+     _SENTENCES_ = 480,
+     _PARAGRAPHS_ = 481,
+     _SENTENCE_ = 482,
+     _PARAGRAPH_ = 483,
+     _REPLACE_ = 484,
+     _MODIFY_ = 485,
+     _FIRST_ = 486,
+     _INSERT_ = 487,
+     _BEFORE_ = 488,
+     _AFTER_ = 489,
+     _REVALIDATION_ = 490,
+     _WITH_ = 491,
+     _NODES_ = 492,
+     _RENAME_ = 493,
+     _LAST_ = 494,
+     _DELETE_ = 495,
+     _INTO_ = 496,
+     _UPDATING_ = 497,
+     _ID_ = 498,
+     _KEY_ = 499,
+     _TEMPLATE_ = 500,
+     _MATCHES_ = 501,
+     _TUPLE_ = 502,
+     _MAP_ = 503,
+     _NAME_ = 504,
+     _CALL_ = 505,
+     _APPLY_ = 506,
+     _TEMPLATES_ = 507,
+     _MODE_ = 508,
+     _FTOR_ = 509,
+     _FTAND_ = 510,
+     _FTNOT_ = 511,
+     _TYPE_ALIAS_ = 512,
+     _XSLT_END_ELEMENT_ = 513,
+     _XSLT_STYLESHEET_ = 514,
+     _XSLT_TEMPLATE_ = 515,
+     _XSLT_VALUE_OF_ = 516,
+     _XSLT_TEXT_ = 517,
+     _XSLT_APPLY_TEMPLATES_ = 518,
+     _XSLT_CALL_TEMPLATE_ = 519,
+     _XSLT_WITH_PARAM_ = 520,
+     _XSLT_SEQUENCE_ = 521,
+     _XSLT_PARAM_ = 522,
+     _XSLT_FUNCTION_ = 523,
+     _XSLT_CHOOSE_ = 524,
+     _XSLT_WHEN_ = 525,
+     _XSLT_OTHERWISE_ = 526,
+     _XSLT_IF_ = 527,
+     _XSLT_VARIABLE_ = 528,
+     _XSLT_COMMENT_ = 529,
+     _XSLT_PI_ = 530,
+     _XSLT_DOCUMENT_ = 531,
+     _XSLT_ATTRIBUTE_ = 532,
+     _XSLT_NAMESPACE_ = 533,
+     _XSLT_ELEMENT_ = 534,
+     _XSLT_ANALYZE_STRING_ = 535,
+     _XSLT_MATCHING_SUBSTRING_ = 536,
+     _XSLT_NON_MATCHING_SUBSTRING_ = 537,
+     _XSLT_COPY_OF_ = 538,
+     _XSLT_COPY_ = 539,
+     _XSLT_FOR_EACH_ = 540,
+     _XSLT_OUTPUT_ = 541,
+     _XSLT_IMPORT_SCHEMA_ = 542,
+     _XSLT_TYPE_ALIAS_ = 543,
+     _XSLT_VERSION_ = 544,
+     _XSLT_MODE_ = 545,
+     _XSLT_NAME_ = 546,
+     _XSLT_DOCTYPE_PUBLIC_ = 547,
+     _XSLT_DOCTYPE_SYSTEM_ = 548,
+     _XSLT_ENCODING_ = 549,
+     _XSLT_MEDIA_TYPE_ = 550,
+     _XSLT_NORMALIZATION_FORM_ = 551,
+     _XSLT_STANDALONE_ = 552,
+     _XSLT_EXCLUDE_RESULT_PREFIXES_ = 553,
+     _XSLT_NAMESPACE_STR_ = 554,
+     _XSLT_SCHEMA_LOCATION_ = 555,
+     _XSLT_TUNNEL_ = 556,
+     _XSLT_REQUIRED_ = 557,
+     _XSLT_OVERRIDE_ = 558,
+     _XSLT_COPY_NAMESPACES_ = 559,
+     _XSLT_INHERIT_NAMESPACES_ = 560,
+     _XSLT_BYTE_ORDER_MARK_ = 561,
+     _XSLT_ESCAPE_URI_ATTRIBUTES_ = 562,
+     _XSLT_INCLUDE_CONTENT_TYPE_ = 563,
+     _XSLT_INDENT_ = 564,
+     _XSLT_OMIT_XML_DECLARATION_ = 565,
+     _XSLT_UNDECLARE_PREFIXES_ = 566,
+     _XSLT_MATCH_ = 567,
+     _XSLT_AS_ = 568,
+     _XSLT_SELECT_ = 569,
+     _XSLT_PRIORITY_ = 570,
+     _XSLT_TEST_ = 571,
+     _XSLT_SEPARATOR_ = 572,
+     _XSLT_NAMESPACE_A_ = 573,
+     _XSLT_REGEX_ = 574,
+     _XSLT_FLAGS_ = 575,
+     _XSLT_METHOD_ = 576,
+     _XSLT_CDATA_SECTION_ELEMENTS_ = 577,
+     _XSLT_USE_CHARACTER_MAPS_ = 578,
+     _XSLT_ELEMENT_NAME_ = 579,
+     _XSLT_XMLNS_ATTR_ = 580,
+     _XSLT_ATTR_NAME_ = 581,
+     _XSLT_TEXT_NODE_ = 582,
+     _XSLT_WS_TEXT_NODE_ = 583,
+     _HASH_DEFAULT_ = 584,
+     _HASH_ALL_ = 585,
+     _HASH_CURRENT_ = 586,
+     _XML_ = 587,
+     _HTML_ = 588,
+     _XHTML_ = 589
+   };
+#endif
+/* Tokens.  */
+#define MYEOF 0
+#define _LANG_XPATH2_ 258
+#define _LANG_XQUERY_ 259
+#define _LANG_XSLT2_ 260
+#define _LANG_FUNCDECL_ 261
+#define _LANG_DELAYEDMODULE_ 262
+#define _LANG_FUNCTION_SIGNATURE_ 263
+#define _LANG_REWRITE_RULE_ 264
+#define _LANG_REWRITE_PATTERN_ 265
+#define _LANG_SEQUENCE_TYPE_ 266
+#define _LANG_CARROT_ 267
+#define _DOLLAR_ 268
+#define _COLON_EQUALS_ 269
+#define _ASTERISK_ 270
+#define _BAR_ 271
+#define _BANG_EQUALS_ 272
+#define _LESS_THAN_EQUALS_ 273
+#define _GREATER_THAN_ 274
+#define _GREATER_THAN_EQUALS_ 275
+#define _LESS_THAN_LESS_THAN_ 276
+#define _GREATER_THAN_GREATER_THAN_ 277
+#define _COLON_COLON_ 278
+#define _AT_SIGN_ 279
+#define _LSQUARE_ 280
+#define _RSQUARE_ 281
+#define _QUESTION_MARK_ 282
+#define _LESS_THAN_OP_OR_TAG_ 283
+#define _START_TAG_CLOSE_ 284
+#define _END_TAG_CLOSE_ 285
+#define _PI_START_ 286
+#define _XML_COMMENT_START_ 287
+#define _XML_COMMENT_END_ 288
+#define _SLASH_SLASH_ 289
+#define _END_TAG_OPEN_ 290
+#define _PRAGMA_OPEN_ 291
+#define _COMMA_ 292
+#define _PLUS_ 293
+#define _MINUS_ 294
+#define _SLASH_ 295
+#define _EQUALS_ 296
+#define _DOT_ 297
+#define _DOT_DOT_ 298
+#define _LPAR_ 299
+#define _RPAR_ 300
+#define _EMPTY_TAG_CLOSE_ 301
+#define _VALUE_INDICATOR_ 302
+#define _OPEN_QUOT_ 303
+#define _CLOSE_QUOT_ 304
+#define _OPEN_APOS_ 305
+#define _CLOSE_APOS_ 306
+#define _LBRACE_ 307
+#define _RBRACE_ 308
+#define _SEMICOLON_ 309
+#define _HASH_ 310
+#define _PERCENT_ 311
+#define _COLON_ 312
+#define _TILDE_ 313
+#define _MINUS_GREATER_THAN_ 314
+#define _BAR_BAR_ 315
+#define _BANG_ 316
+#define _CARROT_ 317
+#define _INTEGER_LITERAL_ 318
+#define _DECIMAL_LITERAL_ 319
+#define _DOUBLE_LITERAL_ 320
+#define _ATTRIBUTE_ 321
+#define _COMMENT_ 322
+#define _DOCUMENT_NODE_ 323
+#define _NAMESPACE_NODE_ 324
+#define _NODE_ 325
+#define _PROCESSING_INSTRUCTION_ 326
+#define _SCHEMA_ATTRIBUTE_ 327
+#define _SCHEMA_ELEMENT_ 328
+#define _TEXT_ 329
+#define _EMPTY_SEQUENCE_ 330
+#define _BOUNDARY_SPACE_ 331
+#define _FT_OPTION_ 332
+#define _BASE_URI_ 333
+#define _LAX_ 334
+#define _STRICT_ 335
+#define _IDIV_ 336
+#define _CHILD_ 337
+#define _DESCENDANT_ 338
+#define _SELF_ 339
+#define _DESCENDANT_OR_SELF_ 340
+#define _FOLLOWING_SIBLING_ 341
+#define _FOLLOWING_ 342
+#define _PARENT_ 343
+#define _ANCESTOR_ 344
+#define _PRECEDING_SIBLING_ 345
+#define _PRECEDING_ 346
+#define _ANCESTOR_OR_SELF_ 347
+#define _DOCUMENT_ 348
+#define _NOT_ 349
+#define _USING_ 350
+#define _NO_ 351
+#define _SENSITIVE_ 352
+#define _INSENSITIVE_ 353
+#define _DIACRITICS_ 354
+#define _WITHOUT_ 355
+#define _WITHOUT_C_ 356
+#define _STEMMING_ 357
+#define _THESAURUS_ 358
+#define _STOP_ 359
+#define _WILDCARDS_ 360
+#define _ENTIRE_ 361
+#define _CONTENT_ 362
+#define _WORD_ 363
+#define _TYPE_ 364
+#define _START_ 365
+#define _END_ 366
+#define _MOST_ 367
+#define _SKIP_ 368
+#define _COPY_ 369
+#define _VALUE_ 370
+#define _WHITESPACE_ 371
+#define _PI_CONTENT_ 372
+#define _XML_COMMENT_CONTENT_ 373
+#define _EQ_ 374
+#define _NE_ 375
+#define _LT_ 376
+#define _LE_ 377
+#define _GT_ 378
+#define _GE_ 379
+#define _AT_ 380
+#define _QUOT_ATTR_CONTENT_ 381
+#define _APOS_ATTR_CONTENT_ 382
+#define _WHITESPACE_ELEMENT_CONTENT_ 383
+#define _ELEMENT_CONTENT_ 384
+#define _AT_LM_ 385
+#define _ORDERED_ 386
+#define _UNORDERED_ 387
+#define _QNAME_ 388
+#define _XMLNS_QNAME_ 389
+#define _CONSTR_QNAME_ 390
+#define _STRING_LITERAL_ 391
+#define _VARIABLE_ 392
+#define _NCNAME_COLON_STAR_ 393
+#define _STAR_COLON_NCNAME_ 394
+#define _PI_TARGET_ 395
+#define _PRAGMA_CONTENT_ 396
+#define _RETURN_ 397
+#define _FOR_ 398
+#define _IN_ 399
+#define _LET_ 400
+#define _WHERE_ 401
+#define _COUNT_ 402
+#define _BY_ 403
+#define _ORDER_ 404
+#define _STABLE_ 405
+#define _ASCENDING_ 406
+#define _DESCENDING_ 407
+#define _EMPTY_ 408
+#define _GREATEST_ 409
+#define _LEAST_ 410
+#define _COLLATION_ 411
+#define _SOME_ 412
+#define _EVERY_ 413
+#define _SATISFIES_ 414
+#define _TYPESWITCH_ 415
+#define _CASE_ 416
+#define _CASE_S_ 417
+#define _AS_ 418
+#define _IF_ 419
+#define _THEN_ 420
+#define _ELSE_ 421
+#define _OR_ 422
+#define _AND_ 423
+#define _INSTANCE_ 424
+#define _OF_ 425
+#define _CASTABLE_ 426
+#define _TO_ 427
+#define _DIV_ 428
+#define _MOD_ 429
+#define _UNION_ 430
+#define _INTERSECT_ 431
+#define _EXCEPT_ 432
+#define _VALIDATE_ 433
+#define _CAST_ 434
+#define _TREAT_ 435
+#define _IS_ 436
+#define _PRESERVE_ 437
+#define _STRIP_ 438
+#define _NAMESPACE_ 439
+#define _ITEM_ 440
+#define _EXTERNAL_ 441
+#define _ENCODING_ 442
+#define _NO_PRESERVE_ 443
+#define _INHERIT_ 444
+#define _NO_INHERIT_ 445
+#define _DECLARE_ 446
+#define _CONSTRUCTION_ 447
+#define _ORDERING_ 448
+#define _DEFAULT_ 449
+#define _COPY_NAMESPACES_ 450
+#define _OPTION_ 451
+#define _XQUERY_ 452
+#define _VERSION_ 453
+#define _IMPORT_ 454
+#define _SCHEMA_ 455
+#define _MODULE_ 456
+#define _ELEMENT_ 457
+#define _FUNCTION_ 458
+#define _FUNCTION_EXT_ 459
+#define _SCORE_ 460
+#define _CONTAINS_ 461
+#define _WEIGHT_ 462
+#define _WINDOW_ 463
+#define _DISTANCE_ 464
+#define _OCCURS_ 465
+#define _TIMES_ 466
+#define _SAME_ 467
+#define _DIFFERENT_ 468
+#define _LOWERCASE_ 469
+#define _UPPERCASE_ 470
+#define _RELATIONSHIP_ 471
+#define _LEVELS_ 472
+#define _LANGUAGE_ 473
+#define _ANY_ 474
+#define _ALL_ 475
+#define _PHRASE_ 476
+#define _EXACTLY_ 477
+#define _FROM_ 478
+#define _WORDS_ 479
+#define _SENTENCES_ 480
+#define _PARAGRAPHS_ 481
+#define _SENTENCE_ 482
+#define _PARAGRAPH_ 483
+#define _REPLACE_ 484
+#define _MODIFY_ 485
+#define _FIRST_ 486
+#define _INSERT_ 487
+#define _BEFORE_ 488
+#define _AFTER_ 489
+#define _REVALIDATION_ 490
+#define _WITH_ 491
+#define _NODES_ 492
+#define _RENAME_ 493
+#define _LAST_ 494
+#define _DELETE_ 495
+#define _INTO_ 496
+#define _UPDATING_ 497
+#define _ID_ 498
+#define _KEY_ 499
+#define _TEMPLATE_ 500
+#define _MATCHES_ 501
+#define _TUPLE_ 502
+#define _MAP_ 503
+#define _NAME_ 504
+#define _CALL_ 505
+#define _APPLY_ 506
+#define _TEMPLATES_ 507
+#define _MODE_ 508
+#define _FTOR_ 509
+#define _FTAND_ 510
+#define _FTNOT_ 511
+#define _TYPE_ALIAS_ 512
+#define _XSLT_END_ELEMENT_ 513
+#define _XSLT_STYLESHEET_ 514
+#define _XSLT_TEMPLATE_ 515
+#define _XSLT_VALUE_OF_ 516
+#define _XSLT_TEXT_ 517
+#define _XSLT_APPLY_TEMPLATES_ 518
+#define _XSLT_CALL_TEMPLATE_ 519
+#define _XSLT_WITH_PARAM_ 520
+#define _XSLT_SEQUENCE_ 521
+#define _XSLT_PARAM_ 522
+#define _XSLT_FUNCTION_ 523
+#define _XSLT_CHOOSE_ 524
+#define _XSLT_WHEN_ 525
+#define _XSLT_OTHERWISE_ 526
+#define _XSLT_IF_ 527
+#define _XSLT_VARIABLE_ 528
+#define _XSLT_COMMENT_ 529
+#define _XSLT_PI_ 530
+#define _XSLT_DOCUMENT_ 531
+#define _XSLT_ATTRIBUTE_ 532
+#define _XSLT_NAMESPACE_ 533
+#define _XSLT_ELEMENT_ 534
+#define _XSLT_ANALYZE_STRING_ 535
+#define _XSLT_MATCHING_SUBSTRING_ 536
+#define _XSLT_NON_MATCHING_SUBSTRING_ 537
+#define _XSLT_COPY_OF_ 538
+#define _XSLT_COPY_ 539
+#define _XSLT_FOR_EACH_ 540
+#define _XSLT_OUTPUT_ 541
+#define _XSLT_IMPORT_SCHEMA_ 542
+#define _XSLT_TYPE_ALIAS_ 543
+#define _XSLT_VERSION_ 544
+#define _XSLT_MODE_ 545
+#define _XSLT_NAME_ 546
+#define _XSLT_DOCTYPE_PUBLIC_ 547
+#define _XSLT_DOCTYPE_SYSTEM_ 548
+#define _XSLT_ENCODING_ 549
+#define _XSLT_MEDIA_TYPE_ 550
+#define _XSLT_NORMALIZATION_FORM_ 551
+#define _XSLT_STANDALONE_ 552
+#define _XSLT_EXCLUDE_RESULT_PREFIXES_ 553
+#define _XSLT_NAMESPACE_STR_ 554
+#define _XSLT_SCHEMA_LOCATION_ 555
+#define _XSLT_TUNNEL_ 556
+#define _XSLT_REQUIRED_ 557
+#define _XSLT_OVERRIDE_ 558
+#define _XSLT_COPY_NAMESPACES_ 559
+#define _XSLT_INHERIT_NAMESPACES_ 560
+#define _XSLT_BYTE_ORDER_MARK_ 561
+#define _XSLT_ESCAPE_URI_ATTRIBUTES_ 562
+#define _XSLT_INCLUDE_CONTENT_TYPE_ 563
+#define _XSLT_INDENT_ 564
+#define _XSLT_OMIT_XML_DECLARATION_ 565
+#define _XSLT_UNDECLARE_PREFIXES_ 566
+#define _XSLT_MATCH_ 567
+#define _XSLT_AS_ 568
+#define _XSLT_SELECT_ 569
+#define _XSLT_PRIORITY_ 570
+#define _XSLT_TEST_ 571
+#define _XSLT_SEPARATOR_ 572
+#define _XSLT_NAMESPACE_A_ 573
+#define _XSLT_REGEX_ 574
+#define _XSLT_FLAGS_ 575
+#define _XSLT_METHOD_ 576
+#define _XSLT_CDATA_SECTION_ELEMENTS_ 577
+#define _XSLT_USE_CHARACTER_MAPS_ 578
+#define _XSLT_ELEMENT_NAME_ 579
+#define _XSLT_XMLNS_ATTR_ 580
+#define _XSLT_ATTR_NAME_ 581
+#define _XSLT_TEXT_NODE_ 582
+#define _XSLT_WS_TEXT_NODE_ 583
+#define _HASH_DEFAULT_ 584
+#define _HASH_ALL_ 585
+#define _HASH_CURRENT_ 586
+#define _XML_ 587
+#define _HTML_ 588
+#define _XHTML_ 589
+
+
+
+
+#if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
+
+# define yystype YYSTYPE /* obsolescent; will be withdrawn */
+# define YYSTYPE_IS_DECLARED 1
+#endif
+
+
+
+#if ! defined YYLTYPE && ! defined YYLTYPE_IS_DECLARED
+typedef struct YYLTYPE
+{
+  int first_line;
+  int first_column;
+  int last_line;
+  int last_column;
+} YYLTYPE;
+# define yyltype YYLTYPE /* obsolescent; will be withdrawn */
+# define YYLTYPE_IS_DECLARED 1
+# define YYLTYPE_IS_TRIVIAL 1
+#endif
+
+
+

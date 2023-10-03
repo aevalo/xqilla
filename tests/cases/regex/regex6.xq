@@ -1,0 +1,1 @@
+matches("1234zzzzA", "1234(zz)?\1A")
